@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="../../supermarketSimulator-tracker_v2_9.html" LogicalName="Tracker.html" />
+    <EmbeddedResource Include="../game-sync.js" LogicalName="Tracker.game-sync.js" />
+    <EmbeddedResource Include="../game-localization.js" LogicalName="Tracker.game-localization.js" />
+    <EmbeddedResource Include="../ui-messages.js" LogicalName="Tracker.ui-messages.js" />
+    <EmbeddedResource Include="../ui-localization.js" LogicalName="Tracker.ui-localization.js" />
+    <EmbeddedResource Include="../profit-threshold.js" LogicalName="Tracker.profit-threshold.js" />
+    <EmbeddedResource Include="../../data/mapping-audit.json" LogicalName="Tracker.mapping-audit.json" Condition="Exists('../../data/mapping-audit.json')" />
+    <EmbeddedResource Include="../../data/product-map.json" LogicalName="Tracker.product-map.json" />
+    <EmbeddedResource Include="../../data/product-pricing.json" LogicalName="Tracker.product-pricing.json" />
+    <EmbeddedResource Include="../../data/game-localization.json" LogicalName="Tracker.game-localization.json" />
+  </ItemGroup>
+</Project>

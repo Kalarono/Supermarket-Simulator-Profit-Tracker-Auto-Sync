@@ -1,0 +1,331 @@
+[
+  {
+    "productId": 24,
+    "assetName": "24_BottledWater_Aotte",
+    "trackerKey": "Bottled Water - Aoette",
+    "reason": "Aotte/Aoette brand spelling; exact Bottled Water category and unique candidate in the same license.",
+    "source": "sharedassets2.assets ProductSO/WeightedProductSO pathID 132160: category + brand + ProductLicenseSO PPtr; license crosswalk corroborated by exact catalog witnesses"
+  },
+  {
+    "productId": 25,
+    "assetName": "25_Butter_Paysans",
+    "trackerKey": "Butter - Paysan",
+    "reason": "Paysans/Paysan brand plural spelling; exact Butter category and matching license.",
+    "source": "sharedassets2.assets ProductSO/WeightedProductSO pathID 132241: category + brand + ProductLicenseSO PPtr; license crosswalk corroborated by exact catalog witnesses"
+  },
+  {
+    "productId": 34,
+    "assetName": "34_Cereal_CrispyChibi",
+    "trackerKey": "Cereal - Crispy Chibli",
+    "reason": "Crispy Chibi/Chibli spelling; exact Cereal category and unique brand SKU in license.",
+    "source": "sharedassets2.assets ProductSO/WeightedProductSO pathID 132224: category + brand + ProductLicenseSO PPtr; license crosswalk corroborated by exact catalog witnesses"
+  },
+  {
+    "productId": 36,
+    "assetName": "36_CheeseMozarella_DonBernardo",
+    "trackerKey": "Cheese Mozzarella - Don Bernardo",
+    "reason": "Asset name explicitly identifies Mozarella; serialized Don Bernardo brand and license distinguish it from Parmesan ID37.",
+    "source": "sharedassets2.assets ProductSO/WeightedProductSO pathID 132233: category + brand + ProductLicenseSO PPtr; license crosswalk corroborated by exact catalog witnesses"
+  },
+  {
+    "productId": 37,
+    "assetName": "37_CheeseParmesan_DonBernardo",
+    "trackerKey": "Cheese Parmesan - Don Bernardo",
+    "reason": "Asset name explicitly identifies Parmesan; serialized Don Bernardo brand and license distinguish it from Mozzarella ID36.",
+    "source": "sharedassets2.assets ProductSO/WeightedProductSO pathID 132234: category + brand + ProductLicenseSO PPtr; license crosswalk corroborated by exact catalog witnesses"
+  },
+  {
+    "productId": 38,
+    "assetName": "38_CheeseParmesan_Eros",
+    "trackerKey": "Cheese Parmesan - Eros",
+    "reason": "Asset name identifies Parmesan, serialized brand Eros and license agree.",
+    "source": "sharedassets2.assets ProductSO/WeightedProductSO pathID 132156: category + brand + ProductLicenseSO PPtr; license crosswalk corroborated by exact catalog witnesses"
+  },
+  {
+    "productId": 39,
+    "assetName": "39_Cheese_Comté",
+    "trackerKey": "Cheese - Compte",
+    "reason": "Comte/Compte brand spelling; exact Cheese category and unique candidate in matching license.",
+    "source": "sharedassets2.assets ProductSO/WeightedProductSO pathID 132161: category + brand + ProductLicenseSO PPtr; license crosswalk corroborated by exact catalog witnesses"
+  },
+  {
+    "productId": 46,
+    "assetName": "46_ChocolateBar_Chocotte",
+    "trackerKey": "Chocolat Bar - Chocotte",
+    "reason": "Chocolate/Chocolat spelling; exact Chocotte brand and same license.",
+    "source": "sharedassets2.assets ProductSO/WeightedProductSO pathID 132225: category + brand + ProductLicenseSO PPtr; license crosswalk corroborated by exact catalog witnesses"
+  },
+  {
+    "productId": 62,
+    "assetName": "62_Eggs_Bio",
+    "trackerKey": "Eggs - 8 pack - Bio",
+    "reason": "Serialized Eggs category, Bio brand and license uniquely identify the tracker SKU; tracker includes package descriptor.",
+    "source": "sharedassets2.assets ProductSO/WeightedProductSO pathID 132163: category + brand + ProductLicenseSO PPtr; license crosswalk corroborated by exact catalog witnesses"
+  },
+  {
+    "productId": 65,
+    "assetName": "65_Houmus_Bibi",
+    "trackerKey": "Houmous - Bibi",
+    "reason": "Houmus/Houmous spelling; exact Bibi brand and license.",
+    "source": "sharedassets2.assets ProductSO/WeightedProductSO pathID 132111: category + brand + ProductLicenseSO PPtr; license crosswalk corroborated by exact catalog witnesses"
+  },
+  {
+    "productId": 67,
+    "assetName": "67_OrangeJuice_BioJuice",
+    "trackerKey": "Bio Juice - Orange Juice",
+    "reason": "Tracker reverses category and brand; both exact tokens Orange Juice and Bio Juice plus license agree.",
+    "source": "sharedassets2.assets ProductSO/WeightedProductSO pathID 132216: category + brand + ProductLicenseSO PPtr; license crosswalk corroborated by exact catalog witnesses"
+  },
+  {
+    "productId": 86,
+    "assetName": "86_AppleJuice_BioJuice",
+    "trackerKey": "Bio Juice - Apple Juice",
+    "reason": "Tracker reverses category and brand; both exact tokens Apple Juice and Bio Juice plus license agree.",
+    "source": "sharedassets2.assets ProductSO/WeightedProductSO pathID 132219: category + brand + ProductLicenseSO PPtr; license crosswalk corroborated by exact catalog witnesses"
+  },
+  {
+    "productId": 112,
+    "assetName": "112_Lasagne_Ronpoint",
+    "trackerKey": "Lasagna - Ronpoint",
+    "reason": "Lasagne/Lasagna naming; asset and category identify lasagna, Ronpoint brand and license agree (Ham Pastry is a separate SKU).",
+    "source": "sharedassets2.assets ProductSO/WeightedProductSO pathID 132131: category + brand + ProductLicenseSO PPtr; license crosswalk corroborated by exact catalog witnesses"
+  },
+  {
+    "productId": 151,
+    "assetName": "151_TeaBlack_TeaPalace",
+    "trackerKey": "Black Tea - Tea Palace",
+    "reason": "Tea Black/Black Tea word order; TeaPalace brand and same license.",
+    "source": "sharedassets2.assets ProductSO/WeightedProductSO pathID 132159: category + brand + ProductLicenseSO PPtr; license crosswalk corroborated by exact catalog witnesses"
+  },
+  {
+    "productId": 186,
+    "assetName": "186_Zucchini",
+    "trackerKey": "Zucchini",
+    "reason": "Serialized category typo Succhini; asset explicitly named Zucchini, WeightedProductSO type and produce license agree.",
+    "source": "sharedassets2.assets ProductSO/WeightedProductSO pathID 132272: category + brand + ProductLicenseSO PPtr; license crosswalk corroborated by exact catalog witnesses"
+  },
+  {
+    "productId": 194,
+    "assetName": "194_Hawai_flipflops",
+    "trackerKey": "Flip-Flop - Hawai",
+    "reason": "Flip-flops/Flip-Flop singular/plural; exact Hawai brand and Clothing license1.",
+    "source": "sharedassets2.assets ProductSO/WeightedProductSO pathID 131538: category + brand + ProductLicenseSO PPtr; license crosswalk corroborated by exact catalog witnesses"
+  },
+  {
+    "productId": 202,
+    "assetName": "202_SLumına_Women_s_shoes",
+    "trackerKey": "Women's Shoe - Lumina",
+    "reason": "Women's shoes/Shoe singular/plural and dotless-i spelling; brand and Clothing license3 agree.",
+    "source": "sharedassets2.assets ProductSO/WeightedProductSO pathID 131546: category + brand + ProductLicenseSO PPtr; license crosswalk corroborated by exact catalog witnesses"
+  },
+  {
+    "productId": 221,
+    "assetName": "221_Diskora_FlashDrive",
+    "trackerKey": "Flash Drive - Diskora",
+    "reason": "Flashdisk/Flash Drive known storage-device alias; asset explicitly says FlashDrive; Diskora brand and Electronics license3 agree.",
+    "source": "sharedassets2.assets ProductSO/WeightedProductSO pathID 131575: category + brand + ProductLicenseSO PPtr; license crosswalk corroborated by exact catalog witnesses"
+  },
+  {
+    "productId": 225,
+    "assetName": "225_Softech_WirelessMouse",
+    "trackerKey": "Wireless Mouse - SoftTech",
+    "reason": "Softech/SoftTech brand spelling; exact wireless mouse category and Electronics license3.",
+    "source": "sharedassets2.assets ProductSO/WeightedProductSO pathID 131579: category + brand + ProductLicenseSO PPtr; license crosswalk corroborated by exact catalog witnesses"
+  },
+  {
+    "productId": 229,
+    "assetName": "229_Mezurex_TapeMeasure",
+    "trackerKey": "Tape Measure - Mezurex",
+    "reason": "Serialized Measure is abbreviated; asset explicitly says TapeMeasure; Mezurex brand and Hardware license1 agree.",
+    "source": "sharedassets2.assets ProductSO/WeightedProductSO pathID 131624: category + brand + ProductLicenseSO PPtr; license crosswalk corroborated by exact catalog witnesses"
+  },
+  {
+    "productId": 249,
+    "assetName": "249_Baby_Jar_Banana",
+    "trackerKey": "Banana Puree - NanaJoy",
+    "reason": "Asset Baby_Jar_Banana and serialized BabyJar Banana distinguish Banana from the other NanaJoy flavours in Essentials license2.",
+    "source": "sharedassets2.assets ProductSO/WeightedProductSO pathID 131595: category + brand + ProductLicenseSO PPtr; license crosswalk corroborated by exact catalog witnesses"
+  },
+  {
+    "productId": 258,
+    "assetName": "258_Canned_Mon-Key_Peach",
+    "trackerKey": "Canned Peaches - Mon-key",
+    "reason": "Peach/Peaches singular/plural; Mon-Key brand and Essentials license4 agree.",
+    "source": "sharedassets2.assets ProductSO/WeightedProductSO pathID 131604: category + brand + ProductLicenseSO PPtr; license crosswalk corroborated by exact catalog witnesses"
+  },
+  {
+    "productId": 260,
+    "assetName": "260_Canned_RedRock_Tomato",
+    "trackerKey": "Canned Tomatoes - RedRock",
+    "reason": "Tomato/Tomatoes singular/plural; RedRock brand and Essentials license4 agree.",
+    "source": "sharedassets2.assets ProductSO/WeightedProductSO pathID 131606: category + brand + ProductLicenseSO PPtr; license crosswalk corroborated by exact catalog witnesses"
+  },
+  {
+    "productId": 273,
+    "assetName": "273_Bagel_Raw",
+    "trackerKey": "Bagel Frozen",
+    "reason": "Raw/frozen input identity corroborated by the named product and Bakery ProductLicenseSO membership; baked counterpart is a separate ProductID.",
+    "source": "Phase B reviewed alias; ProductSO category/asset name + ProductLicenseSO PPtr (sharedassets2.assets)"
+  },
+  {
+    "productId": 275,
+    "assetName": "275_Bread_Raw",
+    "trackerKey": "Bread Frozen",
+    "reason": "Raw/frozen input identity corroborated by the named product and Bakery ProductLicenseSO membership; baked counterpart is a separate ProductID.",
+    "source": "Phase B reviewed alias; ProductSO category/asset name + ProductLicenseSO PPtr (sharedassets2.assets)"
+  },
+  {
+    "productId": 277,
+    "assetName": "277_Croissant_Raw",
+    "trackerKey": "Croissant Frozen",
+    "reason": "Raw/frozen input identity corroborated by the named product and Bakery ProductLicenseSO membership; baked counterpart is a separate ProductID.",
+    "source": "Phase B reviewed alias; ProductSO category/asset name + ProductLicenseSO PPtr (sharedassets2.assets)"
+  },
+  {
+    "productId": 279,
+    "assetName": "279_Donut_Raw",
+    "trackerKey": "Donut Frozen",
+    "reason": "Raw/frozen input identity corroborated by the named product and Bakery ProductLicenseSO membership; baked counterpart is a separate ProductID.",
+    "source": "Phase B reviewed alias; ProductSO category/asset name + ProductLicenseSO PPtr (sharedassets2.assets)"
+  },
+  {
+    "productId": 281,
+    "assetName": "281_Muffin_Raw",
+    "trackerKey": "Muffin Frozen",
+    "reason": "Raw/frozen input identity corroborated by the named product and Bakery ProductLicenseSO membership; baked counterpart is a separate ProductID.",
+    "source": "Phase B reviewed alias; ProductSO category/asset name + ProductLicenseSO PPtr (sharedassets2.assets)"
+  },
+  {
+    "productId": 283,
+    "assetName": "283_Baguette_Raw",
+    "trackerKey": "Baguette Frozen",
+    "reason": "Raw/frozen input identity corroborated by the named product and Bakery ProductLicenseSO membership; baked counterpart is a separate ProductID.",
+    "source": "Phase B reviewed alias; ProductSO category/asset name + ProductLicenseSO PPtr (sharedassets2.assets)"
+  },
+  {
+    "productId": 285,
+    "assetName": "285_CinnamonSwirl_Raw",
+    "trackerKey": "Cinnamon Swirl Frozen",
+    "reason": "Raw/frozen input identity corroborated by the named product and Bakery ProductLicenseSO membership; baked counterpart is a separate ProductID.",
+    "source": "Phase B reviewed alias; ProductSO category/asset name + ProductLicenseSO PPtr (sharedassets2.assets)"
+  },
+  {
+    "productId": 287,
+    "assetName": "287_PuffPastryTwists_Raw",
+    "trackerKey": "Puff Pastry Swirl Frozen",
+    "reason": "Existing reviewed alias for the unique puff-pastry input in Bakery license 2; Cinnamon Swirl is separately identified as 285.",
+    "source": "Phase B reviewed alias; ProductSO category/asset name + ProductLicenseSO PPtr (sharedassets2.assets)"
+  },
+  {
+    "productId": 289,
+    "assetName": "289_Cookie_Raw",
+    "trackerKey": "Cookie Frozen",
+    "reason": "Raw/frozen input identity corroborated by the named product and Bakery ProductLicenseSO membership; baked counterpart is a separate ProductID.",
+    "source": "Phase B reviewed alias; ProductSO category/asset name + ProductLicenseSO PPtr (sharedassets2.assets)"
+  },
+  {
+    "productId": 291,
+    "assetName": "291_DinnerRolls_Raw",
+    "trackerKey": "Dinner Rolls Frozen",
+    "reason": "Raw/frozen input identity corroborated by the named product and Bakery ProductLicenseSO membership; baked counterpart is a separate ProductID.",
+    "source": "Phase B reviewed alias; ProductSO category/asset name + ProductLicenseSO PPtr (sharedassets2.assets)"
+  },
+  {
+    "productId": 293,
+    "assetName": "293_Empanada_Raw",
+    "trackerKey": "Empanadas Frozen",
+    "reason": "Raw/frozen input identity corroborated by the named product and Bakery ProductLicenseSO membership; baked counterpart is a separate ProductID.",
+    "source": "Phase B reviewed alias; ProductSO category/asset name + ProductLicenseSO PPtr (sharedassets2.assets)"
+  },
+  {
+    "productId": 295,
+    "assetName": "295_Focaccia_Raw",
+    "trackerKey": "Focaccia Frozen",
+    "reason": "Raw/frozen input identity corroborated by the named product and Bakery ProductLicenseSO membership; baked counterpart is a separate ProductID.",
+    "source": "Phase B reviewed alias; ProductSO category/asset name + ProductLicenseSO PPtr (sharedassets2.assets)"
+  },
+  {
+    "productId": 297,
+    "assetName": "297_ObiNon_Raw",
+    "trackerKey": "Obi-non Frozen",
+    "reason": "Raw/frozen input identity corroborated by the named product and Bakery ProductLicenseSO membership; baked counterpart is a separate ProductID.",
+    "source": "Phase B reviewed alias; ProductSO category/asset name + ProductLicenseSO PPtr (sharedassets2.assets)"
+  },
+  {
+    "productId": 299,
+    "assetName": "299_PasteldeNata_Raw",
+    "trackerKey": "Pastel de Nata Frozen",
+    "reason": "Raw/frozen input identity corroborated by the named product and Bakery ProductLicenseSO membership; baked counterpart is a separate ProductID.",
+    "source": "Phase B reviewed alias; ProductSO category/asset name + ProductLicenseSO PPtr (sharedassets2.assets)"
+  },
+  {
+    "productId": 301,
+    "assetName": "301_Pretzel_Raw",
+    "trackerKey": "Pretzel Frozen",
+    "reason": "Raw/frozen input identity corroborated by the named product and Bakery ProductLicenseSO membership; baked counterpart is a separate ProductID.",
+    "source": "Phase B reviewed alias; ProductSO category/asset name + ProductLicenseSO PPtr (sharedassets2.assets)"
+  },
+  {
+    "productId": 303,
+    "assetName": "303_IceCreamFlavour_Vanilla",
+    "trackerKey": "Vanilla Flavour",
+    "reason": "IceCream asset identity and ProductLicenseSO membership corroborate the existing explicit flavour/cone alias.",
+    "source": "Phase B reviewed alias; ProductSO category/asset name + ProductLicenseSO PPtr (sharedassets2.assets)"
+  },
+  {
+    "productId": 304,
+    "assetName": "304_IceCreamFlavour_Chocolate",
+    "trackerKey": "Chocolate Flavour",
+    "reason": "IceCream asset identity and ProductLicenseSO membership corroborate the existing explicit flavour/cone alias.",
+    "source": "Phase B reviewed alias; ProductSO category/asset name + ProductLicenseSO PPtr (sharedassets2.assets)"
+  },
+  {
+    "productId": 305,
+    "assetName": "305_IceCreamFlavour_Strawberry",
+    "trackerKey": "Strawberry Flavour",
+    "reason": "IceCream asset identity and ProductLicenseSO membership corroborate the existing explicit flavour/cone alias.",
+    "source": "Phase B reviewed alias; ProductSO category/asset name + ProductLicenseSO PPtr (sharedassets2.assets)"
+  },
+  {
+    "productId": 306,
+    "assetName": "306_IceCreamFlavour_Lemon",
+    "trackerKey": "Lemon Flavour",
+    "reason": "IceCream asset identity and ProductLicenseSO membership corroborate the existing explicit flavour/cone alias.",
+    "source": "Phase B reviewed alias; ProductSO category/asset name + ProductLicenseSO PPtr (sharedassets2.assets)"
+  },
+  {
+    "productId": 307,
+    "assetName": "307_IceCreamFlavour_BlueMoon",
+    "trackerKey": "Blue Moon Flavour",
+    "reason": "IceCream asset identity and ProductLicenseSO membership corroborate the existing explicit flavour/cone alias.",
+    "source": "Phase B reviewed alias; ProductSO category/asset name + ProductLicenseSO PPtr (sharedassets2.assets)"
+  },
+  {
+    "productId": 308,
+    "assetName": "308_IceCreamFlavour_ForestFruit",
+    "trackerKey": "Forest Fruit Flavour",
+    "reason": "IceCream asset identity and ProductLicenseSO membership corroborate the existing explicit flavour/cone alias.",
+    "source": "Phase B reviewed alias; ProductSO category/asset name + ProductLicenseSO PPtr (sharedassets2.assets)"
+  },
+  {
+    "productId": 309,
+    "assetName": "309_IceCreamCone_01",
+    "trackerKey": "Cone A",
+    "reason": "IceCream asset identity and ProductLicenseSO membership corroborate the existing explicit flavour/cone alias.",
+    "source": "Phase B reviewed alias; ProductSO category/asset name + ProductLicenseSO PPtr (sharedassets2.assets)"
+  },
+  {
+    "productId": 310,
+    "assetName": "310_IceCreamCone_02",
+    "trackerKey": "Cone B",
+    "reason": "Retained Phase B explicit cone SKU alias. Asset name Cone_02 is authoritative; serialized display category incorrectly says Ice Cream Lemon.",
+    "source": "Phase B reviewed alias; ProductSO category/asset name + ProductLicenseSO PPtr (sharedassets2.assets)"
+  },
+  {
+    "productId": 311,
+    "assetName": "311_IceCreamCone_03",
+    "trackerKey": "Cone C",
+    "reason": "Retained Phase B explicit cone SKU alias. Asset name Cone_03 is authoritative; serialized display category incorrectly says Ice Cream Lemon.",
+    "source": "Phase B reviewed alias; ProductSO category/asset name + ProductLicenseSO PPtr (sharedassets2.assets)"
+  }
+]

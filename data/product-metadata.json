@@ -1,0 +1,5724 @@
+{
+  "schemaVersion": 1,
+  "scanned": [
+    {
+      "file": "globalgamemanagers.assets",
+      "productObjects": 0
+    },
+    {
+      "file": "level0",
+      "productObjects": 0
+    },
+    {
+      "file": "level1",
+      "productObjects": 0
+    },
+    {
+      "file": "level2",
+      "productObjects": 0
+    },
+    {
+      "file": "level3",
+      "productObjects": 0
+    },
+    {
+      "file": "resources.assets",
+      "productObjects": 0
+    },
+    {
+      "file": "sharedassets0.assets",
+      "productObjects": 0
+    },
+    {
+      "file": "sharedassets1.assets",
+      "productObjects": 0
+    },
+    {
+      "file": "sharedassets2.assets",
+      "productObjects": 311
+    },
+    {
+      "file": "sharedassets3.assets",
+      "productObjects": 0
+    },
+    {
+      "file": "7961628c7217d9df174f4562608915e3_monoscripts_3cbf0466519a3f4d9ee890287e711f05.bundle",
+      "productObjects": 0
+    },
+    {
+      "file": "localization-assets-shared_assets_all.bundle",
+      "productObjects": 0
+    },
+    {
+      "file": "localization-locales_assets_all.bundle",
+      "productObjects": 0
+    },
+    {
+      "file": "localization-string-tables-chinese(simplified)(zh-cn)_assets_all.bundle",
+      "productObjects": 0
+    },
+    {
+      "file": "localization-string-tables-czech(czechrepublic)(cs-cz)_assets_all.bundle",
+      "productObjects": 0
+    },
+    {
+      "file": "localization-string-tables-danish(denmark)(da-dk)_assets_all.bundle",
+      "productObjects": 0
+    },
+    {
+      "file": "localization-string-tables-dutch(netherlands)(nl-nl)_assets_all.bundle",
+      "productObjects": 0
+    },
+    {
+      "file": "localization-string-tables-english(en)_assets_all.bundle",
+      "productObjects": 0
+    },
+    {
+      "file": "localization-string-tables-finnish(finland)(fi-fi)_assets_all.bundle",
+      "productObjects": 0
+    },
+    {
+      "file": "localization-string-tables-french(france)(fr-fr)_assets_all.bundle",
+      "productObjects": 0
+    },
+    {
+      "file": "localization-string-tables-german(de)_assets_all.bundle",
+      "productObjects": 0
+    },
+    {
+      "file": "localization-string-tables-hungarian(hungary)(hu-hu)_assets_all.bundle",
+      "productObjects": 0
+    },
+    {
+      "file": "localization-string-tables-italian(it)_assets_all.bundle",
+      "productObjects": 0
+    },
+    {
+      "file": "localization-string-tables-japanese(japan)(ja-jp)_assets_all.bundle",
+      "productObjects": 0
+    },
+    {
+      "file": "localization-string-tables-korean(southkorea)(ko-kr)_assets_all.bundle",
+      "productObjects": 0
+    },
+    {
+      "file": "localization-string-tables-lithuanian(lithuania)(lt-lt)_assets_all.bundle",
+      "productObjects": 0
+    },
+    {
+      "file": "localization-string-tables-polish(poland)(pl-pl)_assets_all.bundle",
+      "productObjects": 0
+    },
+    {
+      "file": "localization-string-tables-portuguese(brazil)(pt-br)_assets_all.bundle",
+      "productObjects": 0
+    },
+    {
+      "file": "localization-string-tables-portuguese(portugal)(pt-pt)_assets_all.bundle",
+      "productObjects": 0
+    },
+    {
+      "file": "localization-string-tables-romanian(romania)(ro-ro)_assets_all.bundle",
+      "productObjects": 0
+    },
+    {
+      "file": "localization-string-tables-russian(russia)(ru-ru)_assets_all.bundle",
+      "productObjects": 0
+    },
+    {
+      "file": "localization-string-tables-spanish(spain)(es-es)_assets_all.bundle",
+      "productObjects": 0
+    },
+    {
+      "file": "localization-string-tables-turkish(tr)_assets_all.bundle",
+      "productObjects": 0
+    }
+  ],
+  "productCount": 311,
+  "products": [
+    {
+      "productId": 1,
+      "assetName": "1_BeerBlondeAle-6Pack_Fess",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132107,
+      "scriptType": "ProductSO",
+      "category": "Beer Blonde Ale - 6 PACK",
+      "brand": "Fess",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 32,
+          "assetName": "Product License 12",
+          "pathId": 132052,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 2,
+      "assetName": "2_BeerBlondeAle-Keg_Fess",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132108,
+      "scriptType": "ProductSO",
+      "category": "Beer Blonde Ale - Keg",
+      "brand": "Fess",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 32,
+          "assetName": "Product License 12",
+          "pathId": 132052,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 3,
+      "assetName": "3_BeerBlondeAle_Fess",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132109,
+      "scriptType": "ProductSO",
+      "category": "Beer Blonde Ale",
+      "brand": "Fess",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 32,
+          "assetName": "Product License 12",
+          "pathId": 132052,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 4,
+      "assetName": "4_BeerBrownAle-6Pack_BK",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132204,
+      "scriptType": "ProductSO",
+      "category": "Beer Brown Ale - 6 PACK",
+      "brand": "BK",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 47,
+          "assetName": "Product License 27",
+          "pathId": 132068,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 5,
+      "assetName": "5_BeerBrownAle-Keg_Degl",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132205,
+      "scriptType": "ProductSO",
+      "category": "Beer Brown Ale - Keg",
+      "brand": "Dehl",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 47,
+          "assetName": "Product License 27",
+          "pathId": 132068,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 6,
+      "assetName": "6_BeerBrownAle_BK",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132146,
+      "scriptType": "ProductSO",
+      "category": "Beer Blonde Ale",
+      "brand": "BK",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 38,
+          "assetName": "Product License 18",
+          "pathId": 132058,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 7,
+      "assetName": "7_BeerLager-6Pack_Teochew",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132149,
+      "scriptType": "ProductSO",
+      "category": "Beer Lager - 6 PACK",
+      "brand": "Teochew",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 38,
+          "assetName": "Product License 18",
+          "pathId": 132058,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 8,
+      "assetName": "8_BeerLager-Keg_Teochew",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132151,
+      "scriptType": "ProductSO",
+      "category": "Beer Lager - Keg",
+      "brand": "Teochew",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 38,
+          "assetName": "Product License 18",
+          "pathId": 132058,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 9,
+      "assetName": "9_BeerLager_Teochew",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132113,
+      "scriptType": "ProductSO",
+      "category": "Beer Lager ",
+      "brand": "Teochew ",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 32,
+          "assetName": "Product License 12",
+          "pathId": 132052,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 10,
+      "assetName": "10_Bleach_JajaVevel",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132226,
+      "scriptType": "ProductSO",
+      "category": "Bleach",
+      "brand": "Jaja Vevel",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 26,
+          "assetName": "Product License 6",
+          "pathId": 132075,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 11,
+      "assetName": "11_Bleach_WCBoeff",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132121,
+      "scriptType": "ProductSO",
+      "category": "Bleach",
+      "brand": "WC Boeff",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 34,
+          "assetName": "Product License 14",
+          "pathId": 132054,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 12,
+      "assetName": "12_Book_Abc",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132169,
+      "scriptType": "ProductSO",
+      "category": "Book",
+      "brand": "Abc",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 41,
+          "assetName": "Product License 21",
+          "pathId": 132062,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 13,
+      "assetName": "13_Book_Colors",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132170,
+      "scriptType": "ProductSO",
+      "category": "Book",
+      "brand": "Colors",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 41,
+          "assetName": "Product License 21",
+          "pathId": 132062,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 14,
+      "assetName": "14_Book_Donnine",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132171,
+      "scriptType": "ProductSO",
+      "category": "Book",
+      "brand": "Donnine",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 41,
+          "assetName": "Product License 21",
+          "pathId": 132062,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 15,
+      "assetName": "15_Book_ElectromagneticField",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132172,
+      "scriptType": "ProductSO",
+      "category": "Book",
+      "brand": "Electromagnetic Field",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 41,
+          "assetName": "Product License 21",
+          "pathId": 132062,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 16,
+      "assetName": "16_Book_IWon'tShare",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132173,
+      "scriptType": "ProductSO",
+      "category": "Book",
+      "brand": "I Won't Share",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 41,
+          "assetName": "Product License 21",
+          "pathId": 132062,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 17,
+      "assetName": "17_Book_Krok",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132190,
+      "scriptType": "ProductSO",
+      "category": "Book",
+      "brand": "Krok",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 45,
+          "assetName": "Product License 25",
+          "pathId": 132066,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 18,
+      "assetName": "18_Book_MotherAndChild",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132174,
+      "scriptType": "ProductSO",
+      "category": "Book",
+      "brand": "Mother And Child",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 41,
+          "assetName": "Product License 21",
+          "pathId": 132062,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 19,
+      "assetName": "19_Book_OnceUponATime",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132191,
+      "scriptType": "ProductSO",
+      "category": "Book",
+      "brand": "Once Upon A Time",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 45,
+          "assetName": "Product License 25",
+          "pathId": 132066,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 20,
+      "assetName": "20_Book_Piticha",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132192,
+      "scriptType": "ProductSO",
+      "category": "Book",
+      "brand": "Piticha",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 45,
+          "assetName": "Product License 25",
+          "pathId": 132066,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 21,
+      "assetName": "21_Book_TheSurprise",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132193,
+      "scriptType": "ProductSO",
+      "category": "Book",
+      "brand": "The Surprise",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 45,
+          "assetName": "Product License 25",
+          "pathId": 132066,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 22,
+      "assetName": "22_Book_VintageStorybook",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132194,
+      "scriptType": "ProductSO",
+      "category": "Book",
+      "brand": "Vintage Storybook",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 45,
+          "assetName": "Product License 25",
+          "pathId": 132066,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 23,
+      "assetName": "23_Book_Wombat",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132195,
+      "scriptType": "ProductSO",
+      "category": "Book",
+      "brand": "Wombat",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 45,
+          "assetName": "Product License 25",
+          "pathId": 132066,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 24,
+      "assetName": "24_BottledWater_Aotte",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132160,
+      "scriptType": "ProductSO",
+      "category": "Bottled Water",
+      "brand": "Aotte",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 22,
+          "assetName": "Product License 2",
+          "pathId": 132060,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 25,
+      "assetName": "25_Butter_Paysans",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132241,
+      "scriptType": "ProductSO",
+      "category": "Butter",
+      "brand": "Paysans",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 28,
+          "assetName": "Product License 8",
+          "pathId": 132076,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 26,
+      "assetName": "26_Cake_BonPapa",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132221,
+      "scriptType": "ProductSO",
+      "category": "Cake",
+      "brand": "Bon Papa",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 25,
+          "assetName": "Product License 5",
+          "pathId": 132074,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 27,
+      "assetName": "27_Cake_Gerbe",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132179,
+      "scriptType": "ProductSO",
+      "category": "Cake",
+      "brand": "Gerbe",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 43,
+          "assetName": "Product License 23",
+          "pathId": 132064,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 28,
+      "assetName": "28_Cake_Marbré",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132180,
+      "scriptType": "ProductSO",
+      "category": "Cake",
+      "brand": "Marbré",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 43,
+          "assetName": "Product License 23",
+          "pathId": 132064,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 29,
+      "assetName": "29_Cake_Prairie",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132198,
+      "scriptType": "ProductSO",
+      "category": "Cake",
+      "brand": "Prairie",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 46,
+          "assetName": "Product License 26",
+          "pathId": 132067,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 30,
+      "assetName": "30_Cake_Pépites",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132222,
+      "scriptType": "ProductSO",
+      "category": "Cake",
+      "brand": "Pépites",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 25,
+          "assetName": "Product License 5",
+          "pathId": 132074,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 31,
+      "assetName": "31_Cake_St Michmich",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132199,
+      "scriptType": "ProductSO",
+      "category": "Cake",
+      "brand": "St Michmich",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 46,
+          "assetName": "Product License 26",
+          "pathId": 132067,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 32,
+      "assetName": "32_Candy_Bonbek",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132223,
+      "scriptType": "ProductSO",
+      "category": "Candy",
+      "brand": "Bonbek",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 25,
+          "assetName": "Product License 5",
+          "pathId": 132074,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 33,
+      "assetName": "33_Cereal_Chokipik",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132089,
+      "scriptType": "ProductSO",
+      "category": "Cereal",
+      "brand": "Chokipik",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 21,
+          "assetName": "Product License 1",
+          "pathId": 132049,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 34,
+      "assetName": "34_Cereal_CrispyChibi",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132224,
+      "scriptType": "ProductSO",
+      "category": "Cereal",
+      "brand": "Crispy Chibi",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 25,
+          "assetName": "Product License 5",
+          "pathId": 132074,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 35,
+      "assetName": "35_Cereal_HoneyBees",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132242,
+      "scriptType": "ProductSO",
+      "category": "Cereal",
+      "brand": "Honey Bees",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 28,
+          "assetName": "Product License 8",
+          "pathId": 132076,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 36,
+      "assetName": "36_CheeseMozarella_DonBernardo",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132233,
+      "scriptType": "ProductSO",
+      "category": "Cheese",
+      "brand": "Don Bernardo",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 27,
+          "assetName": "Product License 7",
+          "pathId": 132344,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 37,
+      "assetName": "37_CheeseParmesan_DonBernardo",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132234,
+      "scriptType": "ProductSO",
+      "category": "Cheese",
+      "brand": "Don Bernardo",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 27,
+          "assetName": "Product License 7",
+          "pathId": 132344,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 38,
+      "assetName": "38_CheeseParmesan_Eros",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132156,
+      "scriptType": "ProductSO",
+      "category": "Cheese",
+      "brand": "Eros",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 39,
+          "assetName": "Product License 19",
+          "pathId": 132059,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 39,
+      "assetName": "39_Cheese_Comté",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132161,
+      "scriptType": "ProductSO",
+      "category": "Cheese",
+      "brand": "Comté",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 22,
+          "assetName": "Product License 2",
+          "pathId": 132060,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 40,
+      "assetName": "40_Cheese_Gruyere",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132157,
+      "scriptType": "ProductSO",
+      "category": "Cheese",
+      "brand": "Gruyere",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 39,
+          "assetName": "Product License 19",
+          "pathId": 132059,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 41,
+      "assetName": "41_Cheese_Mimolette",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132247,
+      "scriptType": "ProductSO",
+      "category": "Cheese",
+      "brand": "Mimolette",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 29,
+          "assetName": "Product License 9",
+          "pathId": 132077,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 42,
+      "assetName": "42_Chicken_Mwef",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132243,
+      "scriptType": "ProductSO",
+      "category": "Chicken",
+      "brand": "Mwef",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 28,
+          "assetName": "Product License 8",
+          "pathId": 132076,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 43,
+      "assetName": "43_Chips_Chipos",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132120,
+      "scriptType": "ProductSO",
+      "category": "Chips",
+      "brand": "Chipos",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 33,
+          "assetName": "Product License 13",
+          "pathId": 132053,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 44,
+      "assetName": "44_Chips_Covidos",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132110,
+      "scriptType": "ProductSO",
+      "category": "Chips",
+      "brand": "Covidos",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 32,
+          "assetName": "Product License 12",
+          "pathId": 132052,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 45,
+      "assetName": "45_Chips_Vin's",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132181,
+      "scriptType": "ProductSO",
+      "category": "Chips",
+      "brand": "Vin's",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 43,
+          "assetName": "Product License 23",
+          "pathId": 132064,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 46,
+      "assetName": "46_ChocolateBar_Chocotte",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132225,
+      "scriptType": "ProductSO",
+      "category": "Chocolate Bar",
+      "brand": "Chocotte",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 25,
+          "assetName": "Product License 5",
+          "pathId": 132074,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 47,
+      "assetName": "47_ChocolateBar_Denorme",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132200,
+      "scriptType": "ProductSO",
+      "category": "Chocolate Bar",
+      "brand": "Denorme",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 46,
+          "assetName": "Product License 26",
+          "pathId": 132067,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 48,
+      "assetName": "48_ChocolatePowder_Boudain",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132201,
+      "scriptType": "ProductSO",
+      "category": "Chocolate Powder",
+      "brand": "Boudain",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 46,
+          "assetName": "Product License 26",
+          "pathId": 132067,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 49,
+      "assetName": "49_ChocolateSpread_Patatartine",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132182,
+      "scriptType": "ProductSO",
+      "category": "Chocolate Spread",
+      "brand": "Patatartine",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 43,
+          "assetName": "Product License 23",
+          "pathId": 132064,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 50,
+      "assetName": "50_Cleaner_Kilemol",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132123,
+      "scriptType": "ProductSO",
+      "category": "Cleaner",
+      "brand": "Kilemol",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 34,
+          "assetName": "Product License 14",
+          "pathId": 132054,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 51,
+      "assetName": "51_Cleaner_LeTriangle",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132175,
+      "scriptType": "ProductSO",
+      "category": "Cleaner",
+      "brand": "Le Triangle",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 42,
+          "assetName": "Product License 22",
+          "pathId": 132063,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 52,
+      "assetName": "52_Cleaner_Touprop",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132227,
+      "scriptType": "ProductSO",
+      "category": "Cleaner",
+      "brand": "Touprop",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 26,
+          "assetName": "Product License 6",
+          "pathId": 132075,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 53,
+      "assetName": "53_Cleaner_Wesh",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132165,
+      "scriptType": "ProductSO",
+      "category": "Cleaner",
+      "brand": "Wesh",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 40,
+          "assetName": "Product License 20",
+          "pathId": 132061,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 54,
+      "assetName": "54_ClottedCream_Etron",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132158,
+      "scriptType": "ProductSO",
+      "category": "Clotted Cream",
+      "brand": "Etron",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 39,
+          "assetName": "Product License 19",
+          "pathId": 132059,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 55,
+      "assetName": "55_CoffeeDark_Narvalo",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132162,
+      "scriptType": "ProductSO",
+      "category": "Coffee Dark Roast",
+      "brand": "Narvalo",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 22,
+          "assetName": "Product License 2",
+          "pathId": 132060,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 56,
+      "assetName": "56_CoffeeLight_Narvalo",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132248,
+      "scriptType": "ProductSO",
+      "category": "Coffee Light Roast",
+      "brand": "Narvalo",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 29,
+          "assetName": "Product License 9",
+          "pathId": 132077,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 57,
+      "assetName": "57_CoffeeMedium_Narvalo",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132139,
+      "scriptType": "ProductSO",
+      "category": "Coffee Medium Roast",
+      "brand": "Narvalo",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 36,
+          "assetName": "Product License 16",
+          "pathId": 132056,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 58,
+      "assetName": "58_CrabStick_Sans",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132106,
+      "scriptType": "ProductSO",
+      "category": "Crab Stick",
+      "brand": "Sans",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 31,
+          "assetName": "Product License 11",
+          "pathId": 132051,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 59,
+      "assetName": "59_DishwasherTablet_Boum",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132124,
+      "scriptType": "ProductSO",
+      "category": "Dishwasher Tablet",
+      "brand": "Boum",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 34,
+          "assetName": "Product License 14",
+          "pathId": 132054,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 60,
+      "assetName": "60_DishwasherTablet_Cemagik",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132166,
+      "scriptType": "ProductSO",
+      "category": "Dishwasher Tablet",
+      "brand": "Cemagik",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 40,
+          "assetName": "Product License 20",
+          "pathId": 132061,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 61,
+      "assetName": "61_DishwasherTablet_Cleandish",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132228,
+      "scriptType": "ProductSO",
+      "category": "Dishwasher Tablet",
+      "brand": "Cleandish",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 26,
+          "assetName": "Product License 6",
+          "pathId": 132075,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 62,
+      "assetName": "62_Eggs_Bio",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132163,
+      "scriptType": "ProductSO",
+      "category": "Eggs",
+      "brand": "Bio",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 22,
+          "assetName": "Product License 2",
+          "pathId": 132060,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 63,
+      "assetName": "63_HandSoap_Savion",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132229,
+      "scriptType": "ProductSO",
+      "category": "Hand Soap",
+      "brand": "Savion",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 26,
+          "assetName": "Product License 6",
+          "pathId": 132075,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 64,
+      "assetName": "64_Honey_Hone",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132235,
+      "scriptType": "ProductSO",
+      "category": "Honey",
+      "brand": "Hone",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 27,
+          "assetName": "Product License 7",
+          "pathId": 132344,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 65,
+      "assetName": "65_Houmus_Bibi",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132111,
+      "scriptType": "ProductSO",
+      "category": "Houmus",
+      "brand": "Bibi",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 32,
+          "assetName": "Product License 12",
+          "pathId": 132052,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 66,
+      "assetName": "66_Milk_Bourlait",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132164,
+      "scriptType": "ProductSO",
+      "category": "Milk",
+      "brand": "Bourlait",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 22,
+          "assetName": "Product License 2",
+          "pathId": 132060,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 67,
+      "assetName": "67_OrangeJuice_BioJuice",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132216,
+      "scriptType": "ProductSO",
+      "category": "Orange Juice",
+      "brand": "Bio Juice",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 24,
+          "assetName": "Product License 4",
+          "pathId": 132073,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 68,
+      "assetName": "68_PeanutButter_PB's",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132212,
+      "scriptType": "ProductSO",
+      "category": "Peanut Butter",
+      "brand": "PB's",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 23,
+          "assetName": "Product License 3",
+          "pathId": 132071,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 69,
+      "assetName": "69_Shampoo_Kaya",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132230,
+      "scriptType": "ProductSO",
+      "category": "Shampoo",
+      "brand": "Kaya",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 26,
+          "assetName": "Product License 6",
+          "pathId": 132075,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 70,
+      "assetName": "70_SlicedBread_Ron's",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132090,
+      "scriptType": "ProductSO",
+      "category": "Sliced Bread",
+      "brand": "Ron's",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 21,
+          "assetName": "Product License 1",
+          "pathId": 132049,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 71,
+      "assetName": "71_SodaCan-6Pack_Cola",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132183,
+      "scriptType": "ProductSO",
+      "category": "Soda Can - 6 Pack",
+      "brand": "Cola",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 43,
+          "assetName": "Product License 23",
+          "pathId": 132064,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 72,
+      "assetName": "72_SodaCan-6Pack_Zap",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132184,
+      "scriptType": "ProductSO",
+      "category": "Soda Can - 6 Pack",
+      "brand": "Zap",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 43,
+          "assetName": "Product License 23",
+          "pathId": 132064,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 73,
+      "assetName": "73_Soda_Cola",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132217,
+      "scriptType": "ProductSO",
+      "category": "Soda",
+      "brand": "Cola",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 24,
+          "assetName": "Product License 4",
+          "pathId": 132073,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 74,
+      "assetName": "74_Soda_Zap",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132218,
+      "scriptType": "ProductSO",
+      "category": "Soda",
+      "brand": "Zap",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 24,
+          "assetName": "Product License 4",
+          "pathId": 132073,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 75,
+      "assetName": "75_Toiletpaper_Poudou",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132231,
+      "scriptType": "ProductSO",
+      "category": "Toiletpaper",
+      "brand": "Poudou",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 26,
+          "assetName": "Product License 6",
+          "pathId": 132075,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 76,
+      "assetName": "76_Tuna_Stark",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132236,
+      "scriptType": "ProductSO",
+      "category": "Tuna",
+      "brand": "Stark",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 27,
+          "assetName": "Product License 7",
+          "pathId": 132344,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 77,
+      "assetName": "77_Vodka_Eay",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132112,
+      "scriptType": "ProductSO",
+      "category": "Vodka",
+      "brand": "Eay",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 32,
+          "assetName": "Product License 12",
+          "pathId": 132052,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 78,
+      "assetName": "78_Vodka_Magnat",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132147,
+      "scriptType": "ProductSO",
+      "category": "Vodka",
+      "brand": "Magnat",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 38,
+          "assetName": "Product License 18",
+          "pathId": 132058,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 79,
+      "assetName": "79_Whiskey_GrandMarnier",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132148,
+      "scriptType": "ProductSO",
+      "category": "Whiskey",
+      "brand": "Grand Marnier",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 38,
+          "assetName": "Product License 18",
+          "pathId": 132058,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 80,
+      "assetName": "80_Whiskey_JackSublett",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132206,
+      "scriptType": "ProductSO",
+      "category": "Whiskey",
+      "brand": "Jack Sublett",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 47,
+          "assetName": "Product License 27",
+          "pathId": 132068,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 81,
+      "assetName": "81_Whisky_Japanese",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132207,
+      "scriptType": "ProductSO",
+      "category": "Whisky",
+      "brand": "Japanese",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 47,
+          "assetName": "Product License 27",
+          "pathId": 132068,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 82,
+      "assetName": "82_Wine_Chebon",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132150,
+      "scriptType": "ProductSO",
+      "category": "Wine",
+      "brand": "Chebon",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 38,
+          "assetName": "Product License 18",
+          "pathId": 132058,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 83,
+      "assetName": "83_Flour_Kraftung",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132091,
+      "scriptType": "ProductSO",
+      "category": "Flour",
+      "brand": "Kraftung",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 21,
+          "assetName": "Product License 1",
+          "pathId": 132049,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 84,
+      "assetName": "84_Oil_Lespieds",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132092,
+      "scriptType": "ProductSO",
+      "category": "Oil",
+      "brand": "Lespieds",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 21,
+          "assetName": "Product License 1",
+          "pathId": 132049,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 85,
+      "assetName": "85_Pasta_Panzati",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132093,
+      "scriptType": "ProductSO",
+      "category": "Pasta",
+      "brand": "Panzati",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 21,
+          "assetName": "Product License 1",
+          "pathId": 132049,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 86,
+      "assetName": "86_AppleJuice_BioJuice",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132219,
+      "scriptType": "ProductSO",
+      "category": "Apple Juice",
+      "brand": "Bio Juice",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 24,
+          "assetName": "Product License 4",
+          "pathId": 132073,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 87,
+      "assetName": "87_BottledWater_ Fort-lacs",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132185,
+      "scriptType": "ProductSO",
+      "category": "Bottled Water",
+      "brand": "Fort-lacs",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 43,
+          "assetName": "Product License 23",
+          "pathId": 132064,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 88,
+      "assetName": "88_BottledWater_Montcuq",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132249,
+      "scriptType": "ProductSO",
+      "category": "Bottled Water",
+      "brand": "Montcuq",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 29,
+          "assetName": "Product License 9",
+          "pathId": 132077,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 89,
+      "assetName": "89_CatFood_Miaoumiam",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132176,
+      "scriptType": "ProductSO",
+      "category": "Cat Food",
+      "brand": "Miaoumiam",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 42,
+          "assetName": "Product License 22",
+          "pathId": 132063,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 90,
+      "assetName": "90_CatFood_Patpat",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132177,
+      "scriptType": "ProductSO",
+      "category": "Cat Food",
+      "brand": "Patpat",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 42,
+          "assetName": "Product License 22",
+          "pathId": 132063,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 91,
+      "assetName": "91_Cleaner_Yamo",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132125,
+      "scriptType": "ProductSO",
+      "category": "Cleaner",
+      "brand": "Yamo",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 34,
+          "assetName": "Product License 14",
+          "pathId": 132054,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 92,
+      "assetName": "92_DishSoapDurian_Sapu",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132126,
+      "scriptType": "ProductSO",
+      "category": "Dish Soap Durian",
+      "brand": "Sapu",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 34,
+          "assetName": "Product License 14",
+          "pathId": 132054,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 93,
+      "assetName": "93_DishSoapLemon_Mouss",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132167,
+      "scriptType": "ProductSO",
+      "category": "Dish Soap Lemon",
+      "brand": "Mouss",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 40,
+          "assetName": "Product License 20",
+          "pathId": 132061,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 94,
+      "assetName": "94_DogFood_Patpat",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132178,
+      "scriptType": "ProductSO",
+      "category": "Dog Food",
+      "brand": "Patpat",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 42,
+          "assetName": "Product License 22",
+          "pathId": 132063,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 95,
+      "assetName": "95_Eggs-4pack_Bio",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132237,
+      "scriptType": "ProductSO",
+      "category": "Eggs-4pack",
+      "brand": "Bio",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 27,
+          "assetName": "Product License 7",
+          "pathId": 132344,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 96,
+      "assetName": "96_Eggs-12pack_Bio",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132250,
+      "scriptType": "ProductSO",
+      "category": "Eggs-12pack",
+      "brand": "Bio",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 29,
+          "assetName": "Product License 9",
+          "pathId": 132077,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 97,
+      "assetName": "97_FabricSoftener_Souplesse",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132168,
+      "scriptType": "ProductSO",
+      "category": "Fabric Softener",
+      "brand": "Souplesse",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 40,
+          "assetName": "Product License 20",
+          "pathId": 132061,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 98,
+      "assetName": "98_FabricSoftener_Toudou",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132189,
+      "scriptType": "ProductSO",
+      "category": "Fabric Softener",
+      "brand": "Toudou",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 44,
+          "assetName": "Product License 24",
+          "pathId": 132065,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 99,
+      "assetName": "99_Flour_Farine",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132213,
+      "scriptType": "ProductSO",
+      "category": "Flour",
+      "brand": "Farine",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 23,
+          "assetName": "Product License 3",
+          "pathId": 132071,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 100,
+      "assetName": "100_Flour_Sublett's",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132114,
+      "scriptType": "ProductSO",
+      "category": "Flour",
+      "brand": "Sublett's",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 33,
+          "assetName": "Product License 13",
+          "pathId": 132053,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 101,
+      "assetName": "101_FrenchFries_Vandame's",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132238,
+      "scriptType": "ProductSO",
+      "category": "French Fries",
+      "brand": "Vandame's",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 28,
+          "assetName": "Product License 8",
+          "pathId": 132076,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 102,
+      "assetName": "102_Galette_Ham&Cheese_Prypiat",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132127,
+      "scriptType": "ProductSO",
+      "category": "Galette Ham&Cheese",
+      "brand": "Prypiat",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 35,
+          "assetName": "Product License 15",
+          "pathId": 132055,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 103,
+      "assetName": "103_GreenBeans_MrBean",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132140,
+      "scriptType": "ProductSO",
+      "category": "Green Beans",
+      "brand": "MrBean",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 37,
+          "assetName": "Product License 17",
+          "pathId": 132057,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 104,
+      "assetName": "104_GroundBeef_Bovora",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132128,
+      "scriptType": "ProductSO",
+      "category": "Ground Beef",
+      "brand": "Bovora",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 35,
+          "assetName": "Product License 15",
+          "pathId": 132055,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 105,
+      "assetName": "105_HamPastry_Ronpoint",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132129,
+      "scriptType": "ProductSO",
+      "category": "Ham Pastry",
+      "brand": "Ronpoint",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 35,
+          "assetName": "Product License 15",
+          "pathId": 132055,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 106,
+      "assetName": "106_Ham_B&K",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132130,
+      "scriptType": "ProductSO",
+      "category": "Ham",
+      "brand": "B&K",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 35,
+          "assetName": "Product License 15",
+          "pathId": 132055,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 107,
+      "assetName": "107_HotSauce_Hothot",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132101,
+      "scriptType": "ProductSO",
+      "category": "Hot Sauce",
+      "brand": "Hothot",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 31,
+          "assetName": "Product License 11",
+          "pathId": 132051,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 108,
+      "assetName": "108_IcecreamChocolate_MaxiCone",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132102,
+      "scriptType": "ProductSO",
+      "category": "Icecream Chocolate",
+      "brand": "MaxiCone",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 31,
+          "assetName": "Product License 11",
+          "pathId": 132051,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 109,
+      "assetName": "109_IcecreamVanilla_MaxiCone",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132141,
+      "scriptType": "ProductSO",
+      "category": "Icecream Vanilla",
+      "brand": "MaxiCone",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 37,
+          "assetName": "Product License 17",
+          "pathId": 132057,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 110,
+      "assetName": "110_Icecream_Bonbek",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132142,
+      "scriptType": "ProductSO",
+      "category": "Icecream",
+      "brand": "Bonbek",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 37,
+          "assetName": "Product License 17",
+          "pathId": 132057,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 111,
+      "assetName": "111_Ketchup_Kekette",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132103,
+      "scriptType": "ProductSO",
+      "category": "Ketchup",
+      "brand": "Kekette",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 31,
+          "assetName": "Product License 11",
+          "pathId": 132051,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 112,
+      "assetName": "112_Lasagne_Ronpoint",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132131,
+      "scriptType": "ProductSO",
+      "category": "Lasagne",
+      "brand": "Ronpoint",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 35,
+          "assetName": "Product License 15",
+          "pathId": 132055,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 113,
+      "assetName": "113_MashedPotatoes_Puray",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132115,
+      "scriptType": "ProductSO",
+      "category": "Mashed Potatoes",
+      "brand": "Puray",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 33,
+          "assetName": "Product License 13",
+          "pathId": 132053,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 114,
+      "assetName": "114_Mayonnaise_Yoyo",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132104,
+      "scriptType": "ProductSO",
+      "category": "Mayonnaise",
+      "brand": "Yoyo",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 31,
+          "assetName": "Product License 11",
+          "pathId": 132051,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 115,
+      "assetName": "115_Milk-6Pack_Labol",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132214,
+      "scriptType": "ProductSO",
+      "category": "Milk-6Pack",
+      "brand": "Labol",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 24,
+          "assetName": "Product License 4",
+          "pathId": 132073,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 116,
+      "assetName": "116_Moussaka_Ronpoint",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132094,
+      "scriptType": "ProductSO",
+      "category": "Moussaka",
+      "brand": "Ronpoint",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 30,
+          "assetName": "Product License 10",
+          "pathId": 132050,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 117,
+      "assetName": "117_OliveOil_Tupiges",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132208,
+      "scriptType": "ProductSO",
+      "category": "Olive Oil",
+      "brand": "Tupiges",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 23,
+          "assetName": "Product License 3",
+          "pathId": 132071,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 118,
+      "assetName": "118_PastaPenne_Parillo",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132152,
+      "scriptType": "ProductSO",
+      "category": "Pasta Penne",
+      "brand": "Parillo",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 39,
+          "assetName": "Product License 19",
+          "pathId": 132059,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 119,
+      "assetName": "119_PastaSpaghetti_Elo",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132209,
+      "scriptType": "ProductSO",
+      "category": "Pasta Spaghetti",
+      "brand": "Elo",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 23,
+          "assetName": "Product License 3",
+          "pathId": 132071,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 120,
+      "assetName": "120_PastaElbows_Lustupacru",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132244,
+      "scriptType": "ProductSO",
+      "category": "Pasta Elbows",
+      "brand": "Lustupacru",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 29,
+          "assetName": "Product License 9",
+          "pathId": 132077,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 121,
+      "assetName": "121_Pepper_Afyon",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132116,
+      "scriptType": "ProductSO",
+      "category": "Pepper",
+      "brand": "Afyon",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 33,
+          "assetName": "Product License 13",
+          "pathId": 132053,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 122,
+      "assetName": "122_PizzaCheddar_ChezzyPizz",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132105,
+      "scriptType": "ProductSO",
+      "category": "Pizza Cheddar",
+      "brand": "ChezzyPizz",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 31,
+          "assetName": "Product License 11",
+          "pathId": 132051,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 123,
+      "assetName": "123_PizzaMixed_DeNiro",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132239,
+      "scriptType": "ProductSO",
+      "category": "Pizza Mixed",
+      "brand": "DeNiro",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 28,
+          "assetName": "Product License 8",
+          "pathId": 132076,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 124,
+      "assetName": "124_Pizza_Bigtony",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132143,
+      "scriptType": "ProductSO",
+      "category": "Pizza",
+      "brand": "Bigtony",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 37,
+          "assetName": "Product License 17",
+          "pathId": 132057,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 125,
+      "assetName": "125_PotatoBag_Miam",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132240,
+      "scriptType": "ProductSO",
+      "category": "Potato Bag",
+      "brand": "Miam",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 28,
+          "assetName": "Product License 8",
+          "pathId": 132076,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 126,
+      "assetName": "126_PotatoPops_ Spok",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132144,
+      "scriptType": "ProductSO",
+      "category": "Potato Pops",
+      "brand": "Spok",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 37,
+          "assetName": "Product License 17",
+          "pathId": 132057,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 127,
+      "assetName": "127_Proscuito_Sapore",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132132,
+      "scriptType": "ProductSO",
+      "category": "Proscuito",
+      "brand": "Sapore",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 35,
+          "assetName": "Product License 15",
+          "pathId": 132055,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 128,
+      "assetName": "128_RiceBasmati_Lustupacru",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132210,
+      "scriptType": "ProductSO",
+      "category": "Rice Basmati",
+      "brand": "Lustupacru",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 23,
+          "assetName": "Product License 3",
+          "pathId": 132071,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 129,
+      "assetName": "129_Rice_Elo",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132117,
+      "scriptType": "ProductSO",
+      "category": "Rice",
+      "brand": "Elo",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 33,
+          "assetName": "Product License 13",
+          "pathId": 132053,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 130,
+      "assetName": "130_Rice_UncleTony's",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132153,
+      "scriptType": "ProductSO",
+      "category": "Rice",
+      "brand": "UncleTony's",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 39,
+          "assetName": "Product License 19",
+          "pathId": 132059,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 131,
+      "assetName": "131_Salmon_NordicHarbor",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132095,
+      "scriptType": "ProductSO",
+      "category": "Salmon",
+      "brand": "NordicHarbor",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 30,
+          "assetName": "Product License 10",
+          "pathId": 132050,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 132,
+      "assetName": "132_Salt_Laba",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132211,
+      "scriptType": "ProductSO",
+      "category": "Salt",
+      "brand": "Laba",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 23,
+          "assetName": "Product License 3",
+          "pathId": 132071,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 133,
+      "assetName": "133_SandwichBread_Ron's",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132118,
+      "scriptType": "ProductSO",
+      "category": "Sandwich Bread",
+      "brand": "Ron's",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 33,
+          "assetName": "Product License 13",
+          "pathId": 132053,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 134,
+      "assetName": "134_ScallopGratin_Prypiat",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132096,
+      "scriptType": "ProductSO",
+      "category": "Scallop Gratin",
+      "brand": "Prypiat",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 30,
+          "assetName": "Product License 10",
+          "pathId": 132050,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 135,
+      "assetName": "135_Soda_JusTsistu",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132134,
+      "scriptType": "ProductSO",
+      "category": "Soda",
+      "brand": "JusTsistu",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 36,
+          "assetName": "Product License 16",
+          "pathId": 132056,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 136,
+      "assetName": "136_Soda_Koujeima",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132135,
+      "scriptType": "ProductSO",
+      "category": "Soda",
+      "brand": "Kouje",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 36,
+          "assetName": "Product License 16",
+          "pathId": 132056,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 137,
+      "assetName": "137_Soda_Pulp",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132136,
+      "scriptType": "ProductSO",
+      "category": "Soda",
+      "brand": "Pulp",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 36,
+          "assetName": "Product License 16",
+          "pathId": 132056,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 138,
+      "assetName": "138_Soda_Ropico",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132137,
+      "scriptType": "ProductSO",
+      "category": "Soda",
+      "brand": "Ropico",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 36,
+          "assetName": "Product License 16",
+          "pathId": 132056,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 139,
+      "assetName": "139_Soda_Turko",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132215,
+      "scriptType": "ProductSO",
+      "category": "Soda",
+      "brand": "Turko",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 24,
+          "assetName": "Product License 4",
+          "pathId": 132073,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 140,
+      "assetName": "140_Steak_Bovora",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132097,
+      "scriptType": "ProductSO",
+      "category": "Steak",
+      "brand": "Bovora",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 30,
+          "assetName": "Product License 10",
+          "pathId": 132050,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 141,
+      "assetName": "141_SugarBrown_Susu",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132245,
+      "scriptType": "ProductSO",
+      "category": "Sugar Brown",
+      "brand": "Susu",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 29,
+          "assetName": "Product License 9",
+          "pathId": 132077,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 142,
+      "assetName": "142_SugarCane_Daron",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132154,
+      "scriptType": "ProductSO",
+      "category": "Sugar Cane",
+      "brand": "Daron",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 39,
+          "assetName": "Product License 19",
+          "pathId": 132059,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 143,
+      "assetName": "143_SugarDarkBrown_Daron",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132078,
+      "scriptType": "ProductSO",
+      "category": "Sugar Dark Brown",
+      "brand": "Daron",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": []
+    },
+    {
+      "productId": 144,
+      "assetName": "144_SugarLightBrown_Daron",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132138,
+      "scriptType": "ProductSO",
+      "category": "Sugar Light Brown",
+      "brand": "Daron",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 36,
+          "assetName": "Product License 16",
+          "pathId": 132056,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 145,
+      "assetName": "145_SugarPowdered_Boully",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132119,
+      "scriptType": "ProductSO",
+      "category": "Sugar Powdered",
+      "brand": "Boully",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 33,
+          "assetName": "Product License 13",
+          "pathId": 132053,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 146,
+      "assetName": "146_SugarPowdered_Pablo",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132232,
+      "scriptType": "ProductSO",
+      "category": "Sugar Powdered",
+      "brand": "Pablo",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 27,
+          "assetName": "Product License 7",
+          "pathId": 132344,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 147,
+      "assetName": "147_SugarPowdered_Susu",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132088,
+      "scriptType": "ProductSO",
+      "category": "Sugar Powdered",
+      "brand": "Susu",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 21,
+          "assetName": "Product License 1",
+          "pathId": 132049,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 148,
+      "assetName": "148_Sugar_Daron",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132196,
+      "scriptType": "ProductSO",
+      "category": "Sugar",
+      "brand": "Daron",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 46,
+          "assetName": "Product License 26",
+          "pathId": 132067,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 149,
+      "assetName": "149_SushiLarge_Ulego",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132098,
+      "scriptType": "ProductSO",
+      "category": "Sushi Large",
+      "brand": "Ulego",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 30,
+          "assetName": "Product License 10",
+          "pathId": 132050,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 150,
+      "assetName": "150_SushiSmall_Ulego",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132099,
+      "scriptType": "ProductSO",
+      "category": "Sushi Small",
+      "brand": "Ulego",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 30,
+          "assetName": "Product License 10",
+          "pathId": 132050,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 151,
+      "assetName": "151_TeaBlack_TeaPalace",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132159,
+      "scriptType": "ProductSO",
+      "category": "Tea Black",
+      "brand": "TeaPalace",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 22,
+          "assetName": "Product License 2",
+          "pathId": 132060,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 152,
+      "assetName": "152_TeaGreen_TeaPalace",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132246,
+      "scriptType": "ProductSO",
+      "category": "Tea Green",
+      "brand": "TeaPalace",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 29,
+          "assetName": "Product License 9",
+          "pathId": 132077,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 153,
+      "assetName": "153_Toiletpaper_Bidet",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132122,
+      "scriptType": "ProductSO",
+      "category": "Toiletpaper",
+      "brand": "Bidet",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 34,
+          "assetName": "Product License 14",
+          "pathId": 132054,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 154,
+      "assetName": "154_PaperTowel_Compact",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132186,
+      "scriptType": "ProductSO",
+      "category": "Paper Towel",
+      "brand": "Compact",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 44,
+          "assetName": "Product License 24",
+          "pathId": 132065,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 155,
+      "assetName": "155_Toiletpaper_Petus",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132187,
+      "scriptType": "ProductSO",
+      "category": "Toiletpaper",
+      "brand": "Petus",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 44,
+          "assetName": "Product License 24",
+          "pathId": 132065,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 156,
+      "assetName": "156_Toothpaste_Signoulos",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132188,
+      "scriptType": "ProductSO",
+      "category": "Toothpaste",
+      "brand": "Signoulos",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 44,
+          "assetName": "Product License 24",
+          "pathId": 132065,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 157,
+      "assetName": "157_VealChop_Bovora",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132100,
+      "scriptType": "ProductSO",
+      "category": "Veal Chop",
+      "brand": "Bovora",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 30,
+          "assetName": "Product License 10",
+          "pathId": 132050,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 158,
+      "assetName": "158_VeggieMix_Ege",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132145,
+      "scriptType": "ProductSO",
+      "category": "Veggie Mix",
+      "brand": "Ege",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 37,
+          "assetName": "Product License 17",
+          "pathId": 132057,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 159,
+      "assetName": "159_Wine_Heng",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132202,
+      "scriptType": "ProductSO",
+      "category": "Wine",
+      "brand": "Heng",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 47,
+          "assetName": "Product License 27",
+          "pathId": 132068,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 160,
+      "assetName": "160_Wine_Pouilleux",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132203,
+      "scriptType": "ProductSO",
+      "category": "Wine",
+      "brand": "Pouilleux",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 47,
+          "assetName": "Product License 27",
+          "pathId": 132068,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 161,
+      "assetName": "161_Yoghurt_Frügen",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132220,
+      "scriptType": "ProductSO",
+      "category": "Yoghurt",
+      "brand": "Frügen",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 25,
+          "assetName": "Product License 5",
+          "pathId": 132074,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 162,
+      "assetName": "162_Yoghurt_Madone",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132155,
+      "scriptType": "ProductSO",
+      "category": "Yoghurt",
+      "brand": "Madone",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 39,
+          "assetName": "Product License 19",
+          "pathId": 132059,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 163,
+      "assetName": "163_Yoghurt_Yowp",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132197,
+      "scriptType": "ProductSO",
+      "category": "Yoghurt",
+      "brand": "Yowp",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 46,
+          "assetName": "Product License 26",
+          "pathId": 132067,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 164,
+      "assetName": "164_ChickenLeg_Bovora",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132133,
+      "scriptType": "ProductSO",
+      "category": "Chicken Leg",
+      "brand": "Bovora",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 35,
+          "assetName": "Product License 15",
+          "pathId": 132055,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 165,
+      "assetName": "165_Apple",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132251,
+      "scriptType": "WeightedProductSO",
+      "category": "Apple",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 48,
+          "assetName": "Product License 28",
+          "pathId": 132069,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 166,
+      "assetName": "166_Artichoke",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132252,
+      "scriptType": "WeightedProductSO",
+      "category": "Artichoke",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 49,
+          "assetName": "Product License 29",
+          "pathId": 132070,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 167,
+      "assetName": "167_Avocado",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132253,
+      "scriptType": "WeightedProductSO",
+      "category": "Avocado",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 50,
+          "assetName": "Product License 30",
+          "pathId": 132072,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 168,
+      "assetName": "168_Banana",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132254,
+      "scriptType": "WeightedProductSO",
+      "category": "Banana",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 50,
+          "assetName": "Product License 30",
+          "pathId": 132072,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 169,
+      "assetName": "169_Carrot",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132255,
+      "scriptType": "WeightedProductSO",
+      "category": "Carrot",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 48,
+          "assetName": "Product License 28",
+          "pathId": 132069,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 170,
+      "assetName": "170_Chili Pepper",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132256,
+      "scriptType": "WeightedProductSO",
+      "category": "Chilli Pepper",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": []
+    },
+    {
+      "productId": 171,
+      "assetName": "171_Clementine",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132257,
+      "scriptType": "WeightedProductSO",
+      "category": "Clementine",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 50,
+          "assetName": "Product License 30",
+          "pathId": 132072,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 172,
+      "assetName": "172_Garlic",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132258,
+      "scriptType": "WeightedProductSO",
+      "category": "Garlic",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 48,
+          "assetName": "Product License 28",
+          "pathId": 132069,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 173,
+      "assetName": "173_Grapefruit",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132259,
+      "scriptType": "WeightedProductSO",
+      "category": "Grapefruit",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 50,
+          "assetName": "Product License 30",
+          "pathId": 132072,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 174,
+      "assetName": "174_Kiwi",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132260,
+      "scriptType": "WeightedProductSO",
+      "category": "Kiwi",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 48,
+          "assetName": "Product License 28",
+          "pathId": 132069,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 175,
+      "assetName": "175_Lemon",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132261,
+      "scriptType": "WeightedProductSO",
+      "category": "Lemon",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 48,
+          "assetName": "Product License 28",
+          "pathId": 132069,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 176,
+      "assetName": "176_Mango",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132262,
+      "scriptType": "WeightedProductSO",
+      "category": "Mango",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 48,
+          "assetName": "Product License 28",
+          "pathId": 132069,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 177,
+      "assetName": "177_Melon",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132263,
+      "scriptType": "WeightedProductSO",
+      "category": "Melon",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 49,
+          "assetName": "Product License 29",
+          "pathId": 132070,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 178,
+      "assetName": "178_Mushroom",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132264,
+      "scriptType": "WeightedProductSO",
+      "category": "Mushroom",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 48,
+          "assetName": "Product License 28",
+          "pathId": 132069,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 179,
+      "assetName": "179_Onion",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132265,
+      "scriptType": "WeightedProductSO",
+      "category": "Onion",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 49,
+          "assetName": "Product License 29",
+          "pathId": 132070,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 180,
+      "assetName": "180_Papaya",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132266,
+      "scriptType": "WeightedProductSO",
+      "category": "Papaya",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 50,
+          "assetName": "Product License 30",
+          "pathId": 132072,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 181,
+      "assetName": "181_Pear",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132267,
+      "scriptType": "WeightedProductSO",
+      "category": "Pear",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 49,
+          "assetName": "Product License 29",
+          "pathId": 132070,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 182,
+      "assetName": "182_Pineapple",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132268,
+      "scriptType": "WeightedProductSO",
+      "category": "Pineapple",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 49,
+          "assetName": "Product License 29",
+          "pathId": 132070,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 183,
+      "assetName": "183_Potato",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132269,
+      "scriptType": "WeightedProductSO",
+      "category": "Potato",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 49,
+          "assetName": "Product License 29",
+          "pathId": 132070,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 184,
+      "assetName": "184_Pumpkin",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132270,
+      "scriptType": "WeightedProductSO",
+      "category": "Pumpkin",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 50,
+          "assetName": "Product License 30",
+          "pathId": 132072,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 185,
+      "assetName": "185_Squash",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132271,
+      "scriptType": "WeightedProductSO",
+      "category": "Squash",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 49,
+          "assetName": "Product License 29",
+          "pathId": 132070,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 186,
+      "assetName": "186_Zucchini",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132272,
+      "scriptType": "WeightedProductSO",
+      "category": "Succhini",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 49,
+          "assetName": "Product License 29",
+          "pathId": 132070,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 187,
+      "assetName": "187_Tomato",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132273,
+      "scriptType": "WeightedProductSO",
+      "category": "Tomato",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 48,
+          "assetName": "Product License 28",
+          "pathId": 132069,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 188,
+      "assetName": "188_Watermelon",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132274,
+      "scriptType": "WeightedProductSO",
+      "category": "Watermelon",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 49,
+          "assetName": "Product License 29",
+          "pathId": 132070,
+          "arrayOffset": 132
+        }
+      ]
+    },
+    {
+      "productId": 189,
+      "assetName": "189_Aurelia_Women_high_heels",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131533,
+      "scriptType": "ProductSO",
+      "category": "Women High Heels",
+      "brand": "Aurelia",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 51,
+          "assetName": "Product License 31 Cloth 1",
+          "pathId": 131530,
+          "arrayOffset": 140
+        }
+      ]
+    },
+    {
+      "productId": 190,
+      "assetName": "190_BareForm_BasicTankTop",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131534,
+      "scriptType": "ProductSO",
+      "category": "BasicTankTop",
+      "brand": "BareForm",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 51,
+          "assetName": "Product License 31 Cloth 1",
+          "pathId": 131530,
+          "arrayOffset": 140
+        }
+      ]
+    },
+    {
+      "productId": 191,
+      "assetName": "191_CoverCraft_Hoodie",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131535,
+      "scriptType": "ProductSO",
+      "category": "Hoodie",
+      "brand": "CoverCraft",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 51,
+          "assetName": "Product License 31 Cloth 1",
+          "pathId": 131530,
+          "arrayOffset": 140
+        }
+      ]
+    },
+    {
+      "productId": 192,
+      "assetName": "192_Dadydas_training_shoes",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131536,
+      "scriptType": "ProductSO",
+      "category": "Training Shoes",
+      "brand": "Dadydas",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 51,
+          "assetName": "Product License 31 Cloth 1",
+          "pathId": 131530,
+          "arrayOffset": 140
+        }
+      ]
+    },
+    {
+      "productId": 193,
+      "assetName": "193_Fendergo_Hat",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131537,
+      "scriptType": "ProductSO",
+      "category": "Hat",
+      "brand": "Fendergo",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 51,
+          "assetName": "Product License 31 Cloth 1",
+          "pathId": 131530,
+          "arrayOffset": 140
+        }
+      ]
+    },
+    {
+      "productId": 194,
+      "assetName": "194_Hawai_flipflops",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131538,
+      "scriptType": "ProductSO",
+      "category": "Flip-flops",
+      "brand": "Hawai",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 51,
+          "assetName": "Product License 31 Cloth 1",
+          "pathId": 131530,
+          "arrayOffset": 140
+        }
+      ]
+    },
+    {
+      "productId": 195,
+      "assetName": "195_IronHide_LeatherBelt",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131539,
+      "scriptType": "ProductSO",
+      "category": "Leather Belt",
+      "brand": "IronHide",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 51,
+          "assetName": "Product License 31 Cloth 1",
+          "pathId": 131530,
+          "arrayOffset": 140
+        }
+      ]
+    },
+    {
+      "productId": 196,
+      "assetName": "196_Men’s_Cotton_T-Shirt",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131540,
+      "scriptType": "ProductSO",
+      "category": "Men’s Cotton T-Shirt",
+      "brand": "AtlasCotton",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 52,
+          "assetName": "Product License 32 Cloth 2",
+          "pathId": 131531,
+          "arrayOffset": 140
+        }
+      ]
+    },
+    {
+      "productId": 197,
+      "assetName": "197_Montford_CrewSocks",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131541,
+      "scriptType": "ProductSO",
+      "category": "Crew Socks",
+      "brand": "Montford",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 52,
+          "assetName": "Product License 32 Cloth 2",
+          "pathId": 131531,
+          "arrayOffset": 140
+        }
+      ]
+    },
+    {
+      "productId": 198,
+      "assetName": "198_Nestwear_Lounge_Pants",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131542,
+      "scriptType": "ProductSO",
+      "category": "Lounge Pants",
+      "brand": "Nestwear",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 52,
+          "assetName": "Product License 32 Cloth 2",
+          "pathId": 131531,
+          "arrayOffset": 140
+        }
+      ]
+    },
+    {
+      "productId": 199,
+      "assetName": "199_Raven_Men’s_Boxer_Briefs",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131543,
+      "scriptType": "ProductSO",
+      "category": "Men’s Boxer Briefs",
+      "brand": "Raven",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 52,
+          "assetName": "Product License 32 Cloth 2",
+          "pathId": 131531,
+          "arrayOffset": 140
+        }
+      ]
+    },
+    {
+      "productId": 200,
+      "assetName": "200_Regal_Classic_Men_s_Shoe",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131544,
+      "scriptType": "ProductSO",
+      "category": "Classic Men's Shoe",
+      "brand": "Regal",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 52,
+          "assetName": "Product License 32 Cloth 2",
+          "pathId": 131531,
+          "arrayOffset": 140
+        }
+      ]
+    },
+    {
+      "productId": 201,
+      "assetName": "201_Reıss_Women’s_Cotton_Underwear",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131545,
+      "scriptType": "ProductSO",
+      "category": "Women's Cotton Underwear",
+      "brand": "Reıss",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 52,
+          "assetName": "Product License 32 Cloth 2",
+          "pathId": 131531,
+          "arrayOffset": 140
+        }
+      ]
+    },
+    {
+      "productId": 202,
+      "assetName": "202_SLumına_Women_s_shoes",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131546,
+      "scriptType": "ProductSO",
+      "category": "Women's shoes",
+      "brand": "Lumına",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 53,
+          "assetName": "Product License 33 Cloth 3",
+          "pathId": 131532,
+          "arrayOffset": 140
+        }
+      ]
+    },
+    {
+      "productId": 203,
+      "assetName": "203_Stormborne_Raincoat",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131547,
+      "scriptType": "ProductSO",
+      "category": "Raincoat",
+      "brand": "Stormborne",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 53,
+          "assetName": "Product License 33 Cloth 3",
+          "pathId": 131532,
+          "arrayOffset": 140
+        }
+      ]
+    },
+    {
+      "productId": 204,
+      "assetName": "204_SunHem_Shorts",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131548,
+      "scriptType": "ProductSO",
+      "category": "Shorts",
+      "brand": "SunHem",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 53,
+          "assetName": "Product License 33 Cloth 3",
+          "pathId": 131532,
+          "arrayOffset": 140
+        }
+      ]
+    },
+    {
+      "productId": 205,
+      "assetName": "205_Tailorstride_Trousers",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131549,
+      "scriptType": "ProductSO",
+      "category": "Trousers",
+      "brand": "Tailorstride",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 53,
+          "assetName": "Product License 33 Cloth 3",
+          "pathId": 131532,
+          "arrayOffset": 140
+        }
+      ]
+    },
+    {
+      "productId": 206,
+      "assetName": "206_Veloura_Women’s_V-Neck_Tee",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131550,
+      "scriptType": "ProductSO",
+      "category": "Women's V-Neck Tee",
+      "brand": "Veloura",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 53,
+          "assetName": "Product License 33 Cloth 3",
+          "pathId": 131532,
+          "arrayOffset": 140
+        }
+      ]
+    },
+    {
+      "productId": 207,
+      "assetName": "207_Vortex_Men's _Sports_shoe",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131551,
+      "scriptType": "ProductSO",
+      "category": "Men's Sports Shoe",
+      "brand": "Vortex",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 53,
+          "assetName": "Product License 33 Cloth 3",
+          "pathId": 131532,
+          "arrayOffset": 140
+        }
+      ]
+    },
+    {
+      "productId": 208,
+      "assetName": "208_BrightLite_Led",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131562,
+      "scriptType": "ProductSO",
+      "category": "Emergency Led",
+      "brand": "BrightLite",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 54,
+          "assetName": "Product License 34 Electronics 1",
+          "pathId": 131559,
+          "arrayOffset": 144
+        }
+      ]
+    },
+    {
+      "productId": 209,
+      "assetName": "209_BrightLite_Led_Soft",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131563,
+      "scriptType": "ProductSO",
+      "category": "Emergency  Led  Soft",
+      "brand": "BrightLite",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 54,
+          "assetName": "Product License 34 Electronics 1",
+          "pathId": 131559,
+          "arrayOffset": 144
+        }
+      ]
+    },
+    {
+      "productId": 210,
+      "assetName": "210_Powerbank",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131564,
+      "scriptType": "ProductSO",
+      "category": "Powerbank",
+      "brand": "ChargeWave",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 54,
+          "assetName": "Product License 34 Electronics 1",
+          "pathId": 131559,
+          "arrayOffset": 144
+        }
+      ]
+    },
+    {
+      "productId": 211,
+      "assetName": "211_UsbWallCharger_Lightning",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131565,
+      "scriptType": "ProductSO",
+      "category": "Lightning Charging Cable",
+      "brand": "VoltEdge",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 54,
+          "assetName": "Product License 34 Electronics 1",
+          "pathId": 131559,
+          "arrayOffset": 144
+        }
+      ]
+    },
+    {
+      "productId": 212,
+      "assetName": "212_UsbWallCharger_Type-C",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131566,
+      "scriptType": "ProductSO",
+      "category": "USB-C Charging Cable",
+      "brand": "VoltEdge",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 54,
+          "assetName": "Product License 34 Electronics 1",
+          "pathId": 131559,
+          "arrayOffset": 144
+        }
+      ]
+    },
+    {
+      "productId": 213,
+      "assetName": "213_WallAdapter",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131567,
+      "scriptType": "ProductSO",
+      "category": "Wall Adapter",
+      "brand": "WoltEdge",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 54,
+          "assetName": "Product License 34 Electronics 1",
+          "pathId": 131559,
+          "arrayOffset": 144
+        }
+      ]
+    },
+    {
+      "productId": 214,
+      "assetName": "214_Gearlite_FlashLight",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131568,
+      "scriptType": "ProductSO",
+      "category": "Flashlight",
+      "brand": "GearLite",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 55,
+          "assetName": "Product License 35 Electronics 2",
+          "pathId": 131560,
+          "arrayOffset": 144
+        }
+      ]
+    },
+    {
+      "productId": 215,
+      "assetName": "215_PowerMax_Battery",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131569,
+      "scriptType": "ProductSO",
+      "category": "Battery 6X",
+      "brand": "PowerMax",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 55,
+          "assetName": "Product License 35 Electronics 2",
+          "pathId": 131560,
+          "arrayOffset": 144
+        }
+      ]
+    },
+    {
+      "productId": 216,
+      "assetName": "216_TalkBox",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131570,
+      "scriptType": "ProductSO",
+      "category": "Phone",
+      "brand": "TalkBox",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 55,
+          "assetName": "Product License 35 Electronics 2",
+          "pathId": 131560,
+          "arrayOffset": 144
+        }
+      ]
+    },
+    {
+      "productId": 217,
+      "assetName": "217_VoltDrive_FastCarCharger",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131571,
+      "scriptType": "ProductSO",
+      "category": "Fast Car Charger",
+      "brand": "VoltDrive",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 55,
+          "assetName": "Product License 35 Electronics 2",
+          "pathId": 131560,
+          "arrayOffset": 144
+        }
+      ]
+    },
+    {
+      "productId": 218,
+      "assetName": "218_VoltLink_HdmıCable",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131572,
+      "scriptType": "ProductSO",
+      "category": "HDMI Cable",
+      "brand": "VoltLink",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 55,
+          "assetName": "Product License 35 Electronics 2",
+          "pathId": 131560,
+          "arrayOffset": 144
+        }
+      ]
+    },
+    {
+      "productId": 219,
+      "assetName": "219_Vox-Pax_WalkieTalkie",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131573,
+      "scriptType": "ProductSO",
+      "category": "Walkie-Talkie",
+      "brand": "Vox-Pax",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 55,
+          "assetName": "Product License 35 Electronics 2",
+          "pathId": 131560,
+          "arrayOffset": 144
+        }
+      ]
+    },
+    {
+      "productId": 220,
+      "assetName": "220_AuraSound_Headphones",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131574,
+      "scriptType": "ProductSO",
+      "category": "Headphones",
+      "brand": "AuraSound",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 56,
+          "assetName": "Product License 36 Electronics 3",
+          "pathId": 131561,
+          "arrayOffset": 144
+        }
+      ]
+    },
+    {
+      "productId": 221,
+      "assetName": "221_Diskora_FlashDrive",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131575,
+      "scriptType": "ProductSO",
+      "category": "Flashdisk",
+      "brand": "Diskora",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 56,
+          "assetName": "Product License 36 Electronics 3",
+          "pathId": 131561,
+          "arrayOffset": 144
+        }
+      ]
+    },
+    {
+      "productId": 222,
+      "assetName": "222_Keynova_Keyboard",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131576,
+      "scriptType": "ProductSO",
+      "category": "Keyboard",
+      "brand": "Keynova",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 56,
+          "assetName": "Product License 36 Electronics 3",
+          "pathId": 131561,
+          "arrayOffset": 144
+        }
+      ]
+    },
+    {
+      "productId": 223,
+      "assetName": "223_OralWave_ElectricToothbrush",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131577,
+      "scriptType": "ProductSO",
+      "category": "ElectricToothbrush",
+      "brand": "OralWave",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 56,
+          "assetName": "Product License 36 Electronics 3",
+          "pathId": 131561,
+          "arrayOffset": 144
+        }
+      ]
+    },
+    {
+      "productId": 224,
+      "assetName": "224_Secure_VideoDoorbell",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131578,
+      "scriptType": "ProductSO",
+      "category": "VideoDoorbell",
+      "brand": "Secure",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 56,
+          "assetName": "Product License 36 Electronics 3",
+          "pathId": 131561,
+          "arrayOffset": 144
+        }
+      ]
+    },
+    {
+      "productId": 225,
+      "assetName": "225_Softech_WirelessMouse",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131579,
+      "scriptType": "ProductSO",
+      "category": "WirelessMouse",
+      "brand": "Softech",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 56,
+          "assetName": "Product License 36 Electronics 3",
+          "pathId": 131561,
+          "arrayOffset": 144
+        }
+      ]
+    },
+    {
+      "productId": 226,
+      "assetName": "226_SonicDrop_BluetoothSpeaker",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131580,
+      "scriptType": "ProductSO",
+      "category": "BluetoothSpeaker",
+      "brand": "SonicDrop",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 56,
+          "assetName": "Product License 36 Electronics 3",
+          "pathId": 131561,
+          "arrayOffset": 144
+        }
+      ]
+    },
+    {
+      "productId": 227,
+      "assetName": "227_Forge_HammerMultiTool",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131622,
+      "scriptType": "ProductSO",
+      "category": "HammerMultiTool",
+      "brand": "Forge",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 57,
+          "assetName": "Product License 37 Hardware 1",
+          "pathId": 131619,
+          "arrayOffset": 144
+        }
+      ]
+    },
+    {
+      "productId": 228,
+      "assetName": "228_Gripx_MultiSCrewdriver",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131623,
+      "scriptType": "ProductSO",
+      "category": "MultiScrewdriver",
+      "brand": "Gripx",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 57,
+          "assetName": "Product License 37 Hardware 1",
+          "pathId": 131619,
+          "arrayOffset": 144
+        }
+      ]
+    },
+    {
+      "productId": 229,
+      "assetName": "229_Mezurex_TapeMeasure",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131624,
+      "scriptType": "ProductSO",
+      "category": "Measure",
+      "brand": "Mezurex",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 57,
+          "assetName": "Product License 37 Hardware 1",
+          "pathId": 131619,
+          "arrayOffset": 144
+        }
+      ]
+    },
+    {
+      "productId": 230,
+      "assetName": "230_Nailcore_PrecisionNailKit",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131625,
+      "scriptType": "ProductSO",
+      "category": "PrecisionNailKit",
+      "brand": "Nailcore",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 57,
+          "assetName": "Product License 37 Hardware 1",
+          "pathId": 131619,
+          "arrayOffset": 144
+        }
+      ]
+    },
+    {
+      "productId": 231,
+      "assetName": "231_Glusim_GlueGun",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131626,
+      "scriptType": "ProductSO",
+      "category": "GlueGun",
+      "brand": "Glusim",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 58,
+          "assetName": "Product License 38 Hardware 2",
+          "pathId": 131620,
+          "arrayOffset": 144
+        }
+      ]
+    },
+    {
+      "productId": 232,
+      "assetName": "232_Ironit_WallHook",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131627,
+      "scriptType": "ProductSO",
+      "category": "WallHook",
+      "brand": "Ironit",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 58,
+          "assetName": "Product License 38 Hardware 2",
+          "pathId": 131620,
+          "arrayOffset": 144
+        }
+      ]
+    },
+    {
+      "productId": 233,
+      "assetName": "233_Nanoco_CableClips",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131628,
+      "scriptType": "ProductSO",
+      "category": "CableClips",
+      "brand": "Nanoco",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 58,
+          "assetName": "Product License 38 Hardware 2",
+          "pathId": 131620,
+          "arrayOffset": 144
+        }
+      ]
+    },
+    {
+      "productId": 234,
+      "assetName": "234_Penfix_SuperGlue",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131629,
+      "scriptType": "ProductSO",
+      "category": "SuperGlue",
+      "brand": "Penfix",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 58,
+          "assetName": "Product License 38 Hardware 2",
+          "pathId": 131620,
+          "arrayOffset": 144
+        }
+      ]
+    },
+    {
+      "productId": 235,
+      "assetName": "235_Syneon_MountingTape",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131630,
+      "scriptType": "ProductSO",
+      "category": "MountingTape",
+      "brand": "Syneon",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 58,
+          "assetName": "Product License 38 Hardware 2",
+          "pathId": 131620,
+          "arrayOffset": 144
+        }
+      ]
+    },
+    {
+      "productId": 236,
+      "assetName": "236_Forge_NosePliers",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131631,
+      "scriptType": "ProductSO",
+      "category": "NosePliers",
+      "brand": "Forge",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 59,
+          "assetName": "Product License 39 Hardware 3",
+          "pathId": 131621,
+          "arrayOffset": 144
+        }
+      ]
+    },
+    {
+      "productId": 237,
+      "assetName": "237_Hyunda_LevelSet",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131632,
+      "scriptType": "ProductSO",
+      "category": "LevelSet",
+      "brand": "Hyunda",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 59,
+          "assetName": "Product License 39 Hardware 3",
+          "pathId": 131621,
+          "arrayOffset": 144
+        }
+      ]
+    },
+    {
+      "productId": 238,
+      "assetName": "238_PortableToolbox",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131633,
+      "scriptType": "ProductSO",
+      "category": "PortableToolbox",
+      "brand": "Kaldra",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 59,
+          "assetName": "Product License 39 Hardware 3",
+          "pathId": 131621,
+          "arrayOffset": 144
+        }
+      ]
+    },
+    {
+      "productId": 239,
+      "assetName": "239_SteelZone_Screwdriverset",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131634,
+      "scriptType": "ProductSO",
+      "category": "Screwdriverset",
+      "brand": "SteelZone",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 59,
+          "assetName": "Product License 39 Hardware 3",
+          "pathId": 131621,
+          "arrayOffset": 144
+        }
+      ]
+    },
+    {
+      "productId": 240,
+      "assetName": "240_Ventune_HexKeySet",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131635,
+      "scriptType": "ProductSO",
+      "category": "HexKeySet",
+      "brand": "Ventune",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 59,
+          "assetName": "Product License 39 Hardware 3",
+          "pathId": 131621,
+          "arrayOffset": 144
+        }
+      ]
+    },
+    {
+      "productId": 241,
+      "assetName": "241_Baby Lotion",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131587,
+      "scriptType": "ProductSO",
+      "category": "Baby Lotion",
+      "brand": "Freshscent",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 60,
+          "assetName": "Product License 40 Mix 1",
+          "pathId": 131581,
+          "arrayOffset": 136
+        }
+      ]
+    },
+    {
+      "productId": 242,
+      "assetName": "242_Baby Oil",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131588,
+      "scriptType": "ProductSO",
+      "category": "Baby Oil",
+      "brand": "LullaSoft",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 60,
+          "assetName": "Product License 40 Mix 1",
+          "pathId": 131581,
+          "arrayOffset": 136
+        }
+      ]
+    },
+    {
+      "productId": 243,
+      "assetName": "243_Baby Powder",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131589,
+      "scriptType": "ProductSO",
+      "category": "Baby Powder",
+      "brand": "SoftNest",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 60,
+          "assetName": "Product License 40 Mix 1",
+          "pathId": 131581,
+          "arrayOffset": 136
+        }
+      ]
+    },
+    {
+      "productId": 244,
+      "assetName": "244_Baby Shampoo",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131590,
+      "scriptType": "ProductSO",
+      "category": "Baby Shampoo",
+      "brand": "SnuggleDrop",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 60,
+          "assetName": "Product License 40 Mix 1",
+          "pathId": 131581,
+          "arrayOffset": 136
+        }
+      ]
+    },
+    {
+      "productId": 245,
+      "assetName": "245_BabyDiapers",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131591,
+      "scriptType": "ProductSO",
+      "category": "Baby Diapers",
+      "brand": "BabyJoy",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 60,
+          "assetName": "Product License 40 Mix 1",
+          "pathId": 131581,
+          "arrayOffset": 136
+        }
+      ]
+    },
+    {
+      "productId": 246,
+      "assetName": "246_BabyJoy_BabyWipes",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131592,
+      "scriptType": "ProductSO",
+      "category": "Baby Wipes",
+      "brand": "BabyJoy",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 60,
+          "assetName": "Product License 40 Mix 1",
+          "pathId": 131581,
+          "arrayOffset": 136
+        }
+      ]
+    },
+    {
+      "productId": 247,
+      "assetName": "247_pacifier_pack",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131593,
+      "scriptType": "ProductSO",
+      "category": "Pacifier",
+      "brand": "TinyTot",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 60,
+          "assetName": "Product License 40 Mix 1",
+          "pathId": 131581,
+          "arrayOffset": 136
+        }
+      ]
+    },
+    {
+      "productId": 248,
+      "assetName": "248_Baby_Food_Pack",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131594,
+      "scriptType": "ProductSO",
+      "category": "Packed Baby Food",
+      "brand": "Purebeb",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 61,
+          "assetName": "Product License 41 Mix 2",
+          "pathId": 131582,
+          "arrayOffset": 136
+        }
+      ]
+    },
+    {
+      "productId": 249,
+      "assetName": "249_Baby_Jar_Banana",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131595,
+      "scriptType": "ProductSO",
+      "category": "BabyJar Banana",
+      "brand": "NanaJoy",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 61,
+          "assetName": "Product License 41 Mix 2",
+          "pathId": 131582,
+          "arrayOffset": 136
+        }
+      ]
+    },
+    {
+      "productId": 250,
+      "assetName": "250_Baby_Jar_Fresa",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131596,
+      "scriptType": "ProductSO",
+      "category": "Strawberry Puree",
+      "brand": "NanaJoy",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 61,
+          "assetName": "Product License 41 Mix 2",
+          "pathId": 131582,
+          "arrayOffset": 136
+        }
+      ]
+    },
+    {
+      "productId": 251,
+      "assetName": "251_Baby_Jar_Verduras",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131597,
+      "scriptType": "ProductSO",
+      "category": "Vegetable Puree",
+      "brand": "NanaJoy",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 61,
+          "assetName": "Product License 41 Mix 2",
+          "pathId": 131582,
+          "arrayOffset": 136
+        }
+      ]
+    },
+    {
+      "productId": 252,
+      "assetName": "252_babybottle",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131598,
+      "scriptType": "ProductSO",
+      "category": "BabyBottle",
+      "brand": "Bango",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 61,
+          "assetName": "Product License 41 Mix 2",
+          "pathId": 131582,
+          "arrayOffset": 136
+        }
+      ]
+    },
+    {
+      "productId": 253,
+      "assetName": "253_Canned_Beaneto_GreenBeans",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131599,
+      "scriptType": "ProductSO",
+      "category": "Canned GreenBeans",
+      "brand": "Beaneto",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 62,
+          "assetName": "Product License 42 Mix 3",
+          "pathId": 131583,
+          "arrayOffset": 136
+        }
+      ]
+    },
+    {
+      "productId": 254,
+      "assetName": "254_Canned_BellaCasa_CayennePepper",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131600,
+      "scriptType": "ProductSO",
+      "category": "Canned CayennePepper",
+      "brand": "BellaCasa",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 62,
+          "assetName": "Product License 42 Mix 3",
+          "pathId": 131583,
+          "arrayOffset": 136
+        }
+      ]
+    },
+    {
+      "productId": 255,
+      "assetName": "255_Canned_GoldenTropics_CrushedPineapple",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131601,
+      "scriptType": "ProductSO",
+      "category": "Canned CrushedPineapple",
+      "brand": "GoldenTropics",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 62,
+          "assetName": "Product License 42 Mix 3",
+          "pathId": 131583,
+          "arrayOffset": 136
+        }
+      ]
+    },
+    {
+      "productId": 256,
+      "assetName": "256_Canned_Kidney_CoolBeans",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131602,
+      "scriptType": "ProductSO",
+      "category": "Canned Beans",
+      "brand": "Kidney Cool Beans",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 62,
+          "assetName": "Product License 42 Mix 3",
+          "pathId": 131583,
+          "arrayOffset": 136
+        }
+      ]
+    },
+    {
+      "productId": 257,
+      "assetName": "257_Canned_Latsbite_MixedFruit",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131603,
+      "scriptType": "ProductSO",
+      "category": "Canned MixedFruit",
+      "brand": "Latsbite",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 62,
+          "assetName": "Product License 42 Mix 3",
+          "pathId": 131583,
+          "arrayOffset": 136
+        }
+      ]
+    },
+    {
+      "productId": 258,
+      "assetName": "258_Canned_Mon-Key_Peach",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131604,
+      "scriptType": "ProductSO",
+      "category": "Canned Peach",
+      "brand": "Mon-Key",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 63,
+          "assetName": "Product License 43 Mix 4",
+          "pathId": 131584,
+          "arrayOffset": 136
+        }
+      ]
+    },
+    {
+      "productId": 259,
+      "assetName": "259_Canned_OceanBay_Tuna",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131605,
+      "scriptType": "ProductSO",
+      "category": "Canned Tuna",
+      "brand": "OceanBay",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 63,
+          "assetName": "Product License 43 Mix 4",
+          "pathId": 131584,
+          "arrayOffset": 136
+        }
+      ]
+    },
+    {
+      "productId": 260,
+      "assetName": "260_Canned_RedRock_Tomato",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131606,
+      "scriptType": "ProductSO",
+      "category": "Canned Tomato",
+      "brand": "RedRock",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 63,
+          "assetName": "Product License 43 Mix 4",
+          "pathId": 131584,
+          "arrayOffset": 136
+        }
+      ]
+    },
+    {
+      "productId": 261,
+      "assetName": "261_Canned_Stark_Tuna",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131607,
+      "scriptType": "ProductSO",
+      "category": "Canned Tuna",
+      "brand": "Stark",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 63,
+          "assetName": "Product License 43 Mix 4",
+          "pathId": 131584,
+          "arrayOffset": 136
+        }
+      ]
+    },
+    {
+      "productId": 262,
+      "assetName": "262_Canned_SunValley_Corn",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131608,
+      "scriptType": "ProductSO",
+      "category": "Canned Corn",
+      "brand": "SunValley",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 63,
+          "assetName": "Product License 43 Mix 4",
+          "pathId": 131584,
+          "arrayOffset": 136
+        }
+      ]
+    },
+    {
+      "productId": 263,
+      "assetName": "263_AluminumFoil",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131609,
+      "scriptType": "ProductSO",
+      "category": "Aluminum Foil",
+      "brand": "SureWrap",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 64,
+          "assetName": "Product License 44 Mix 5",
+          "pathId": 131585,
+          "arrayOffset": 136
+        }
+      ]
+    },
+    {
+      "productId": 264,
+      "assetName": "264_Choppingboard",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131610,
+      "scriptType": "ProductSO",
+      "category": "Choppingboard",
+      "brand": "Beaneto",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 64,
+          "assetName": "Product License 44 Mix 5",
+          "pathId": 131585,
+          "arrayOffset": 136
+        }
+      ]
+    },
+    {
+      "productId": 265,
+      "assetName": "265_Cutlery Set",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131611,
+      "scriptType": "ProductSO",
+      "category": "Cutlery Set",
+      "brand": "SilverNest",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 64,
+          "assetName": "Product License 44 Mix 5",
+          "pathId": 131585,
+          "arrayOffset": 136
+        }
+      ]
+    },
+    {
+      "productId": 266,
+      "assetName": "266_DishSponge",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131612,
+      "scriptType": "ProductSO",
+      "category": "DishSponge",
+      "brand": "EzClean",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 64,
+          "assetName": "Product License 44 Mix 5",
+          "pathId": 131585,
+          "arrayOffset": 136
+        }
+      ]
+    },
+    {
+      "productId": 267,
+      "assetName": "267_Garbage Bags",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131613,
+      "scriptType": "ProductSO",
+      "category": "Garbage Bags",
+      "brand": "Waste Management",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 64,
+          "assetName": "Product License 44 Mix 5",
+          "pathId": 131585,
+          "arrayOffset": 136
+        }
+      ]
+    },
+    {
+      "productId": 268,
+      "assetName": "268_Grater",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131614,
+      "scriptType": "ProductSO",
+      "category": "Grater",
+      "brand": "Grater",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 65,
+          "assetName": "Product License 45 Mix 6",
+          "pathId": 131586,
+          "arrayOffset": 136
+        }
+      ]
+    },
+    {
+      "productId": 269,
+      "assetName": "269_KitchenKnife",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131615,
+      "scriptType": "ProductSO",
+      "category": "KitchenKnife",
+      "brand": "KitchenKnife",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 65,
+          "assetName": "Product License 45 Mix 6",
+          "pathId": 131586,
+          "arrayOffset": 136
+        }
+      ]
+    },
+    {
+      "productId": 270,
+      "assetName": "270_PlasticCups",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131616,
+      "scriptType": "ProductSO",
+      "category": "Plastic Cups",
+      "brand": "PlasticCap",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 65,
+          "assetName": "Product License 45 Mix 6",
+          "pathId": 131586,
+          "arrayOffset": 136
+        }
+      ]
+    },
+    {
+      "productId": 271,
+      "assetName": "271_StretchFilm",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131617,
+      "scriptType": "ProductSO",
+      "category": "Stretch Film",
+      "brand": "Kitchen Fresh",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 65,
+          "assetName": "Product License 45 Mix 6",
+          "pathId": 131586,
+          "arrayOffset": 136
+        }
+      ]
+    },
+    {
+      "productId": 272,
+      "assetName": "272_Vegetable Peeler",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131618,
+      "scriptType": "ProductSO",
+      "category": "Vegetable Peeler",
+      "brand": "Vegetable Peeler",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 65,
+          "assetName": "Product License 45 Mix 6",
+          "pathId": 131586,
+          "arrayOffset": 136
+        }
+      ]
+    },
+    {
+      "productId": 273,
+      "assetName": "273_Bagel_Raw",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131500,
+      "scriptType": "ProductSO",
+      "category": "Bagel Raw",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 66,
+          "assetName": "Product License 46 Bakery License 1",
+          "pathId": 131494,
+          "arrayOffset": 148
+        }
+      ]
+    },
+    {
+      "productId": 274,
+      "assetName": "274_Bagel_Baked",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131501,
+      "scriptType": "ProductSO",
+      "category": "Bagel Baked",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 66,
+          "assetName": "Product License 46 Bakery License 1",
+          "pathId": 131494,
+          "arrayOffset": 148
+        }
+      ]
+    },
+    {
+      "productId": 275,
+      "assetName": "275_Bread_Raw",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131502,
+      "scriptType": "ProductSO",
+      "category": "Bread Raw",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 66,
+          "assetName": "Product License 46 Bakery License 1",
+          "pathId": 131494,
+          "arrayOffset": 148
+        }
+      ]
+    },
+    {
+      "productId": 276,
+      "assetName": "276_Bread_Baked",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131503,
+      "scriptType": "ProductSO",
+      "category": "Bread Baked",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 66,
+          "assetName": "Product License 46 Bakery License 1",
+          "pathId": 131494,
+          "arrayOffset": 148
+        }
+      ]
+    },
+    {
+      "productId": 277,
+      "assetName": "277_Croissant_Raw",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131504,
+      "scriptType": "ProductSO",
+      "category": "Croissant Raw",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 66,
+          "assetName": "Product License 46 Bakery License 1",
+          "pathId": 131494,
+          "arrayOffset": 148
+        }
+      ]
+    },
+    {
+      "productId": 278,
+      "assetName": "278_Croissant_Baked",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131505,
+      "scriptType": "ProductSO",
+      "category": "Croissant Baked",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 66,
+          "assetName": "Product License 46 Bakery License 1",
+          "pathId": 131494,
+          "arrayOffset": 148
+        }
+      ]
+    },
+    {
+      "productId": 279,
+      "assetName": "279_Donut_Raw",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131506,
+      "scriptType": "ProductSO",
+      "category": "Donut Raw",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 66,
+          "assetName": "Product License 46 Bakery License 1",
+          "pathId": 131494,
+          "arrayOffset": 148
+        }
+      ]
+    },
+    {
+      "productId": 280,
+      "assetName": "280_Donut_Baked",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131507,
+      "scriptType": "ProductSO",
+      "category": "Donut Baked",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 66,
+          "assetName": "Product License 46 Bakery License 1",
+          "pathId": 131494,
+          "arrayOffset": 148
+        }
+      ]
+    },
+    {
+      "productId": 281,
+      "assetName": "281_Muffin_Raw",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131508,
+      "scriptType": "ProductSO",
+      "category": "Muffin Raw",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 66,
+          "assetName": "Product License 46 Bakery License 1",
+          "pathId": 131494,
+          "arrayOffset": 148
+        }
+      ]
+    },
+    {
+      "productId": 282,
+      "assetName": "282_Muffin_Baked",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131509,
+      "scriptType": "ProductSO",
+      "category": "Muffin Baked",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 66,
+          "assetName": "Product License 46 Bakery License 1",
+          "pathId": 131494,
+          "arrayOffset": 148
+        }
+      ]
+    },
+    {
+      "productId": 283,
+      "assetName": "283_Baguette_Raw",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131510,
+      "scriptType": "ProductSO",
+      "category": "Baguette Frozen",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 67,
+          "assetName": "Product License 47 Bakery License 2",
+          "pathId": 131495,
+          "arrayOffset": 148
+        }
+      ]
+    },
+    {
+      "productId": 284,
+      "assetName": "284_Baguette_Baked",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131511,
+      "scriptType": "ProductSO",
+      "category": "Baguette Baked",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 67,
+          "assetName": "Product License 47 Bakery License 2",
+          "pathId": 131495,
+          "arrayOffset": 148
+        }
+      ]
+    },
+    {
+      "productId": 285,
+      "assetName": "285_CinnamonSwirl_Raw",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131512,
+      "scriptType": "ProductSO",
+      "category": "CinnamonSwirl Frozen",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 67,
+          "assetName": "Product License 47 Bakery License 2",
+          "pathId": 131495,
+          "arrayOffset": 148
+        }
+      ]
+    },
+    {
+      "productId": 286,
+      "assetName": "286_CinnamonSwirl_Baked",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131513,
+      "scriptType": "ProductSO",
+      "category": "CinnamonSwirl Baked",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 67,
+          "assetName": "Product License 47 Bakery License 2",
+          "pathId": 131495,
+          "arrayOffset": 148
+        }
+      ]
+    },
+    {
+      "productId": 287,
+      "assetName": "287_PuffPastryTwists_Raw",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131514,
+      "scriptType": "ProductSO",
+      "category": "PuffPastryTwists Frozen",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 67,
+          "assetName": "Product License 47 Bakery License 2",
+          "pathId": 131495,
+          "arrayOffset": 148
+        }
+      ]
+    },
+    {
+      "productId": 288,
+      "assetName": "288_PuffPastryTwists_Baked",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131515,
+      "scriptType": "ProductSO",
+      "category": "PuffPastryTwists Baked",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 67,
+          "assetName": "Product License 47 Bakery License 2",
+          "pathId": 131495,
+          "arrayOffset": 148
+        }
+      ]
+    },
+    {
+      "productId": 289,
+      "assetName": "289_Cookie_Raw",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131516,
+      "scriptType": "ProductSO",
+      "category": "Cookie Frozen",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 67,
+          "assetName": "Product License 47 Bakery License 2",
+          "pathId": 131495,
+          "arrayOffset": 148
+        }
+      ]
+    },
+    {
+      "productId": 290,
+      "assetName": "290_Cookie_Baked",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131517,
+      "scriptType": "ProductSO",
+      "category": "Cookie Baked",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 67,
+          "assetName": "Product License 47 Bakery License 2",
+          "pathId": 131495,
+          "arrayOffset": 148
+        }
+      ]
+    },
+    {
+      "productId": 291,
+      "assetName": "291_DinnerRolls_Raw",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131518,
+      "scriptType": "ProductSO",
+      "category": "DinnerRolls Frozen",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 67,
+          "assetName": "Product License 47 Bakery License 2",
+          "pathId": 131495,
+          "arrayOffset": 148
+        }
+      ]
+    },
+    {
+      "productId": 292,
+      "assetName": "292_DinnerRolls_Baked",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131519,
+      "scriptType": "ProductSO",
+      "category": "DinnerRolls Baked",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 67,
+          "assetName": "Product License 47 Bakery License 2",
+          "pathId": 131495,
+          "arrayOffset": 148
+        }
+      ]
+    },
+    {
+      "productId": 293,
+      "assetName": "293_Empanada_Raw",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131520,
+      "scriptType": "ProductSO",
+      "category": "Empanada Frozen",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 68,
+          "assetName": "Product License 48 Bakery License 3",
+          "pathId": 131496,
+          "arrayOffset": 148
+        }
+      ]
+    },
+    {
+      "productId": 294,
+      "assetName": "294_Empanada_Baked",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131521,
+      "scriptType": "ProductSO",
+      "category": "Empanada Baked",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 68,
+          "assetName": "Product License 48 Bakery License 3",
+          "pathId": 131496,
+          "arrayOffset": 148
+        }
+      ]
+    },
+    {
+      "productId": 295,
+      "assetName": "295_Focaccia_Raw",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131522,
+      "scriptType": "ProductSO",
+      "category": "Focaccia Frozen",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 68,
+          "assetName": "Product License 48 Bakery License 3",
+          "pathId": 131496,
+          "arrayOffset": 148
+        }
+      ]
+    },
+    {
+      "productId": 296,
+      "assetName": "296_Focaccia_Baked",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131523,
+      "scriptType": "ProductSO",
+      "category": "Focaccia Baked",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 68,
+          "assetName": "Product License 48 Bakery License 3",
+          "pathId": 131496,
+          "arrayOffset": 148
+        }
+      ]
+    },
+    {
+      "productId": 297,
+      "assetName": "297_ObiNon_Raw",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131524,
+      "scriptType": "ProductSO",
+      "category": "Obi-Non Frozen",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 68,
+          "assetName": "Product License 48 Bakery License 3",
+          "pathId": 131496,
+          "arrayOffset": 148
+        }
+      ]
+    },
+    {
+      "productId": 298,
+      "assetName": "298_ObiNon_Baked",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131525,
+      "scriptType": "ProductSO",
+      "category": "Obi-Non Baked",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 68,
+          "assetName": "Product License 48 Bakery License 3",
+          "pathId": 131496,
+          "arrayOffset": 148
+        }
+      ]
+    },
+    {
+      "productId": 299,
+      "assetName": "299_PasteldeNata_Raw",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131526,
+      "scriptType": "ProductSO",
+      "category": "Pastel de Nata Frozen",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 68,
+          "assetName": "Product License 48 Bakery License 3",
+          "pathId": 131496,
+          "arrayOffset": 148
+        }
+      ]
+    },
+    {
+      "productId": 300,
+      "assetName": "300_PasteldeNata_Baked",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131527,
+      "scriptType": "ProductSO",
+      "category": "Pastel de Nata Baked",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 68,
+          "assetName": "Product License 48 Bakery License 3",
+          "pathId": 131496,
+          "arrayOffset": 148
+        }
+      ]
+    },
+    {
+      "productId": 301,
+      "assetName": "301_Pretzel_Raw",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131528,
+      "scriptType": "ProductSO",
+      "category": "Pretzel Frozen",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 68,
+          "assetName": "Product License 48 Bakery License 3",
+          "pathId": 131496,
+          "arrayOffset": 148
+        }
+      ]
+    },
+    {
+      "productId": 302,
+      "assetName": "302_Pretzel_Baked",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 131529,
+      "scriptType": "ProductSO",
+      "category": "Pretzel Baked",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 68,
+          "assetName": "Product License 48 Bakery License 3",
+          "pathId": 131496,
+          "arrayOffset": 148
+        }
+      ]
+    },
+    {
+      "productId": 303,
+      "assetName": "303_IceCreamFlavour_Vanilla",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132079,
+      "scriptType": "ProductSO",
+      "category": "Vanilla Flavour",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 69,
+          "assetName": "Product License_IceCream",
+          "pathId": 131636,
+          "arrayOffset": 136
+        }
+      ]
+    },
+    {
+      "productId": 304,
+      "assetName": "304_IceCreamFlavour_Chocolate",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132080,
+      "scriptType": "ProductSO",
+      "category": "Chocolate Flavour",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 69,
+          "assetName": "Product License_IceCream",
+          "pathId": 131636,
+          "arrayOffset": 136
+        }
+      ]
+    },
+    {
+      "productId": 305,
+      "assetName": "305_IceCreamFlavour_Strawberry",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132081,
+      "scriptType": "ProductSO",
+      "category": "Strawberry Flavour",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 69,
+          "assetName": "Product License_IceCream",
+          "pathId": 131636,
+          "arrayOffset": 136
+        }
+      ]
+    },
+    {
+      "productId": 306,
+      "assetName": "306_IceCreamFlavour_Lemon",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132082,
+      "scriptType": "ProductSO",
+      "category": "Lemon Flavour",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 69,
+          "assetName": "Product License_IceCream",
+          "pathId": 131636,
+          "arrayOffset": 136
+        }
+      ]
+    },
+    {
+      "productId": 307,
+      "assetName": "307_IceCreamFlavour_BlueMoon",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132083,
+      "scriptType": "ProductSO",
+      "category": "Blue Moon Flavour",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 69,
+          "assetName": "Product License_IceCream",
+          "pathId": 131636,
+          "arrayOffset": 136
+        }
+      ]
+    },
+    {
+      "productId": 308,
+      "assetName": "308_IceCreamFlavour_ForestFruit",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132084,
+      "scriptType": "ProductSO",
+      "category": "Forest Fruit Flavour",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 69,
+          "assetName": "Product License_IceCream",
+          "pathId": 131636,
+          "arrayOffset": 136
+        }
+      ]
+    },
+    {
+      "productId": 309,
+      "assetName": "309_IceCreamCone_01",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132085,
+      "scriptType": "ProductSO",
+      "category": "Ice Cream Cone A",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 69,
+          "assetName": "Product License_IceCream",
+          "pathId": 131636,
+          "arrayOffset": 136
+        }
+      ]
+    },
+    {
+      "productId": 310,
+      "assetName": "310_IceCreamCone_02",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132086,
+      "scriptType": "ProductSO",
+      "category": "Ice Cream Lemon",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 69,
+          "assetName": "Product License_IceCream",
+          "pathId": 131636,
+          "arrayOffset": 136
+        }
+      ]
+    },
+    {
+      "productId": 311,
+      "assetName": "311_IceCreamCone_03",
+      "assetFile": "sharedassets2.assets",
+      "pathId": 132087,
+      "scriptType": "ProductSO",
+      "category": "Ice Cream Lemon",
+      "brand": "",
+      "source": "MonoScript class + serialized ProductID/category/brand + ProductLicenseSO PPtr",
+      "gameLicenses": [
+        {
+          "id": 69,
+          "assetName": "Product License_IceCream",
+          "pathId": 131636,
+          "arrayOffset": 136
+        }
+      ]
+    }
+  ]
+}
