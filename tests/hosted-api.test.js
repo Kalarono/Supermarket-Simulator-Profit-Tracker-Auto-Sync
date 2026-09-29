@@ -43,7 +43,8 @@ async function check(name,fn){try{await fn();passed++;console.log('PASS',name);}
   await check('installed game localization exposes detected languages and bundle fingerprint',async()=>{
     const r=await request('/locales');assert.equal(r.code,200);
     const data=JSON.parse(r.body);assert.equal(data.schemaVersion,1);assert.ok(data.available.includes('en')&&data.available.includes('ru-RU'));
-    assert.equal(data.steamBuildId,'24835898');assert.match(data.bundleFingerprint,/^sha256:/);
+    const bundled=JSON.parse(fs.readFileSync(path.join(root,'data/game-localization.json'),'utf8'));
+    assert.equal(data.steamBuildId,bundled.game.steamBuildId);assert.match(data.bundleFingerprint,/^sha256:/);
   });
   await check('official Russian product label maps by ProductID and keeps brand canonical',async()=>{
     const r=await request('/localization/ru-RU');assert.equal(r.code,200);

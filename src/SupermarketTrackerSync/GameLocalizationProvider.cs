@@ -112,7 +112,7 @@ public sealed class SteamGameInstallDiscovery : IGameInstallDiscovery
 
 public sealed record LocalizationLocalesResponse(
     int SchemaVersion, IReadOnlyList<string> Available, IReadOnlyList<string> Detected,
-    string? GameVersion, string? SteamBuildId, string? BundleFingerprint, string? Warning);
+    string? GameVersion, string? SteamBuildId, string? BundleFingerprint, string? Warning, bool IsCurrent);
 
 public sealed record LocalizedProductResponse(
     int ProductId, string? CanonicalCategory, string? CanonicalBrand,
@@ -196,7 +196,7 @@ public sealed class GameLocalizationProvider
                 _available = false;
                 if (!force && _quickStamp == "steam-game-not-found") return false;
                 _quickStamp = "steam-game-not-found";
-                _warning = "Supermarket Simulator was not found through Steam metadata; using English tracker labels.";
+                _warning = DescribeUnavailableCatalog("Supermarket Simulator was not found through Steam metadata.");
                 return true;
             }
             if (_catalog is null)
@@ -243,7 +243,9 @@ public sealed class GameLocalizationProvider
             { return MarkUnavailable("Game localization validation failed; using English tracker labels: " + error.Message); }
 
             _available = true;
-            _warning = null;
+            _warning = _catalog.Coverage.FallbackEnglish > 0
+                ? $"Russian game names are missing for {_catalog.Coverage.FallbackEnglish} products; English names will be used for those items."
+                : null;
             return true;
         }
     }
@@ -252,14 +254,14 @@ public sealed class GameLocalizationProvider
     {
         lock (_gate)
         {
-            var valid = _available && _catalog is not null;
+            var hasCatalog = _catalog is not null;
             return new(1,
-                valid ? _catalog!.AvailableLocales : new[] { "en" },
-                valid ? _catalog!.DetectedLocales : Array.Empty<string>(),
-                valid ? _catalog!.Game.GameVersion : null,
+                hasCatalog ? _catalog!.AvailableLocales : new[] { "en" },
+                hasCatalog ? _catalog!.DetectedLocales : Array.Empty<string>(),
+                hasCatalog ? _catalog!.Game.GameVersion : null,
                 _install?.SteamBuildId,
-                valid ? _catalog!.Cache.Fingerprint : null,
-                _warning);
+                hasCatalog ? _catalog!.Cache.Fingerprint : null,
+                _warning, _available);
         }
     }
 
@@ -269,7 +271,7 @@ public sealed class GameLocalizationProvider
         {
             var requestedSupported = requestedLocale is "en" or "ru-RU";
             var locale = requestedSupported ? requestedLocale : "en";
-            var supported = requestedSupported && _available && _catalog is not null
+            var supported = requestedSupported && _catalog is not null
                 && _catalog.AvailableLocales.Contains(locale, StringComparer.Ordinal);
             var warning = _warning;
             string? fallback = null;
@@ -294,10 +296,12 @@ public sealed class GameLocalizationProvider
                         ? null : $"{product.Localization.Table}:{product.Localization.Key}";
                     values[product.ProductId.ToString(CultureInfo.InvariantCulture)] = new(
                         product.ProductId, product.Canonical.Category, product.Canonical.Brand,
-                        localizedCategory, null, label, display ?? label, "game-localization", key);
+                        localizedCategory, null, label, display ?? label,
+                        _available ? "game-localization" : "bundled-fallback", key);
                 }
             }
-            return new(1, requestedLocale, supported ? locale : "en", supported ? "game-localization" : "canonical-fallback",
+            return new(1, requestedLocale, supported ? locale : "en",
+                supported ? (_available ? "game-localization" : "bundled-fallback") : "canonical-fallback",
                 supported ? _catalog!.Game.GameVersion : null, _install?.SteamBuildId,
                 supported ? _catalog!.Cache.Fingerprint : null,
                 supported, fallback, warning, values);
@@ -341,9 +345,14 @@ public sealed class GameLocalizationProvider
     private bool MarkUnavailable(string warning)
     {
         _available = false;
-        _warning = warning;
+        _warning = DescribeUnavailableCatalog(warning);
         return true;
     }
+
+    private string DescribeUnavailableCatalog(string warning)
+        => _catalog?.AvailableLocales.Contains("ru-RU", StringComparer.Ordinal) == true
+            ? warning + $" Using bundled Russian labels from game build {_catalog.Game.SteamBuildId}; some names may be out of date."
+            : warning + " Using English tracker labels.";
 
     private static string CreateQuickStamp(GameInstall install, LocalizationCache cache)
     {
@@ -413,6 +422,8 @@ public sealed class GameLocalizationProvider
             || !catalog.AvailableLocales.Contains("ru-RU", StringComparer.Ordinal)
             || catalog.AvailableLocales.Any(locale => locale is not ("en" or "ru-RU")))
             return "Localization catalog has unsupported display locales; using English tracker labels.";
+        if (!catalog.Products.Any(product => !string.IsNullOrWhiteSpace(product.Localization?.Russian)))
+            return "Localization catalog has no Russian product names; using English tracker labels.";
         if (catalog.Cache.BundleFiles is null || catalog.Cache.BundleFiles.Length == 0
             || catalog.Cache.ProductAssetFiles is null)
             return "Localization catalog cache metadata is incomplete; using English tracker labels.";
@@ -427,8 +438,7 @@ public sealed class GameLocalizationProvider
             if (product is null || product.ProductId <= 0 || !ids.Add(product.ProductId)
                 || product.Canonical is null || product.Localization is null
                 || string.IsNullOrWhiteSpace(product.Canonical.DisplayName)
-                || string.IsNullOrWhiteSpace(product.Localization.English)
-                || string.IsNullOrWhiteSpace(product.Localization.Russian))
+                || string.IsNullOrWhiteSpace(product.Localization.English))
                 return "Localization catalog contains invalid ProductID records; using English tracker labels.";
         }
         return null;

@@ -4,7 +4,7 @@ namespace SupermarketTrackerSync;
 
 public static class BuildInfo
 {
-    public const string HelperVersion = "1.0.0";
+    public const string HelperVersion = "1.0.1";
     public const string TrackerVersion = "2.9";
     public const int ApiSchemaVersion = 3;
 

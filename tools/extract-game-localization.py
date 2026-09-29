@@ -71,7 +71,26 @@ def discover_game(game_root: Path | None) -> tuple[Path, Path | None, str | None
         data = find_data_directory(root)
         if data is None:
             raise FileNotFoundError(f"No *_Data directory with StreamingAssets/aa found under {root}")
-        return root, data, None
+        build_id = None
+        for library in steam_roots():
+            manifests = library / "steamapps"
+            if not manifests.is_dir():
+                continue
+            for manifest in manifests.glob("appmanifest_*.acf"):
+                try:
+                    text = manifest.read_text(encoding="utf-8", errors="replace")
+                except OSError:
+                    continue
+                if (read_steam_string(text, "name") or "").casefold() != "supermarket simulator":
+                    continue
+                install_dir = read_steam_string(text, "installdir")
+                candidate = manifests / "common" / install_dir if install_dir else None
+                if candidate is not None and candidate.resolve() == root:
+                    build_id = read_steam_string(text, "buildid")
+                    break
+            if build_id:
+                break
+        return root, data, build_id
 
     candidates: list[tuple[Path, Path, str | None]] = []
     for library in steam_roots():

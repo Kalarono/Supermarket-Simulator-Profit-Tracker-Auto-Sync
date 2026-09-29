@@ -3,17 +3,17 @@
   "source": "game-localization",
   "game": {
     "name": "Supermarket Simulator",
-    "steamBuildId": "24835898",
+    "steamBuildId": "25603293",
     "gameVersion": null
   },
   "cache": {
-    "fingerprint": "sha256:c03377befa08bb8eb268df5d21fb44385a68e03d1fd7ef12f7a67d1a26bf89ec",
+    "fingerprint": "sha256:c1b9744b987b07fdc27a4809c5b5ed4a3c622ed7120e3a5312bb85624b5f4226",
     "bundleFiles": [
       {
         "name": "localization-assets-shared_assets_all.bundle",
-        "length": 21619,
-        "lastWriteTimeUtc": "2026-09-23T20:42:27.843851Z",
-        "sha256": "6526a7044c39e7013f232ed6ffaae2f28912d5ebdc01578cfee5bc0e98477c34"
+        "length": 23322,
+        "lastWriteTimeUtc": "2026-09-29T06:44:53.816298Z",
+        "sha256": "5f27a1e0903bdd6d4cec66ffb2fcc6daba4d92c7c23e0fdb3dc86a99bc8406d9"
       },
       {
         "name": "localization-locales_assets_all.bundle",
@@ -23,22 +23,22 @@
       },
       {
         "name": "localization-string-tables-english(en)_assets_all.bundle",
-        "length": 24969,
-        "lastWriteTimeUtc": "2026-09-23T20:42:18.463786Z",
-        "sha256": "99efc59f1640e2ed01e806f5e3820ff7dccff3eed12d57b6cba055037a4a6fe5"
+        "length": 27003,
+        "lastWriteTimeUtc": "2026-09-29T06:44:53.816298Z",
+        "sha256": "ed57796030db0653964313e09c138531e8192a452cc3b7c32ad1a36861953677"
       },
       {
         "name": "localization-string-tables-russian(russia)(ru-ru)_assets_all.bundle",
-        "length": 27916,
-        "lastWriteTimeUtc": "2026-09-23T20:42:21.954350Z",
-        "sha256": "a1f91cb8b248901063c3fc780e280914818a7361e265c903475a19f6e53d483d"
+        "length": 30158,
+        "lastWriteTimeUtc": "2026-09-29T06:44:53.885766Z",
+        "sha256": "788084ed621e0af8e5c432664fc4f57c2f1a7e79389fc7f58317a71c630b9898"
       }
     ],
     "productAssetFiles": [
       {
         "name": "sharedassets2.assets",
-        "length": 102630108,
-        "lastWriteTimeUtc": "2026-09-23T20:42:09.381397Z"
+        "length": 102234716,
+        "lastWriteTimeUtc": "2026-09-29T15:05:19.695124Z"
       }
     ]
   },
@@ -69,29 +69,29 @@
     "ru-RU"
   ],
   "tables": {
-    "sharedTableCount": 31,
-    "sharedKeyCount": 1039,
+    "sharedTableCount": 32,
+    "sharedKeyCount": 1164,
     "localeTableCounts": {
-      "zh-CN": 31,
-      "cs-CZ": 31,
-      "da-DK": 31,
-      "nl-NL": 31,
-      "en": 31,
-      "fi-FI": 31,
-      "fr-FR": 31,
-      "de": 31,
-      "hu-HU": 31,
-      "it": 31,
-      "ja-JP": 31,
-      "ko-KR": 31,
-      "lt-LT": 31,
-      "pl-PL": 31,
-      "pt-BR": 31,
-      "pt-PT": 31,
-      "ro-RO": 31,
-      "ru-RU": 31,
-      "es-ES": 31,
-      "tr": 31
+      "zh-CN": 32,
+      "cs-CZ": 32,
+      "da-DK": 32,
+      "nl-NL": 32,
+      "en": 32,
+      "fi-FI": 32,
+      "fr-FR": 32,
+      "de": 32,
+      "hu-HU": 32,
+      "it": 32,
+      "ja-JP": 32,
+      "ko-KR": 32,
+      "lt-LT": 32,
+      "pl-PL": 32,
+      "pt-BR": 32,
+      "pt-PT": 32,
+      "ro-RO": 32,
+      "ru-RU": 32,
+      "es-ES": 32,
+      "tr": 32
     },
     "productRelatedKeys": 188
   },

@@ -10,6 +10,7 @@
   let available = ["en"];
   let products = Object.create(null);
   let warning = "";
+  let isCurrent = false;
   let requestId = 0;
   let bundleFingerprint = null;
   let hasRussianData = false;
@@ -37,7 +38,7 @@
 
   function notify() {
     root.dispatchEvent(new CustomEvent("tracker-localization-changed", {
-      detail: { locale, available: [...available], warning },
+      detail: { locale, available: [...available], warning, isCurrent },
     }));
   }
 
@@ -47,6 +48,7 @@
     let nextHasRussianData = hasRussianData;
     let nextAvailable = ["en"];
     let nextWarning = "";
+    let nextIsCurrent = false;
     let nextFingerprint = null;
     try {
       const locales = await get("/locales");
@@ -56,6 +58,7 @@
       nextAvailable = locales.available.filter(value => VALID_LOCALES.has(value));
       if (!nextAvailable.includes("en")) nextAvailable.unshift("en");
       nextWarning = typeof locales.warning === "string" ? locales.warning : "";
+      nextIsCurrent = locales.isCurrent === true;
       nextFingerprint = typeof locales.bundleFingerprint === "string" ? locales.bundleFingerprint : null;
       if (nextFingerprint !== bundleFingerprint) {
         nextProducts = Object.create(null);
@@ -81,14 +84,13 @@
       hasRussianData = nextHasRussianData;
       available = nextAvailable;
       warning = nextWarning;
+      isCurrent = nextIsCurrent;
       bundleFingerprint = nextFingerprint;
     } catch (error) {
       if (id !== requestId) return;
-      products = Object.create(null);
-      hasRussianData = false;
-      available = ["en"];
+      // Keep the last complete localization while the helper is temporarily offline.
+      // A later poll retries the API; transient failures must not blank Russian names.
       warning = error?.message || "Official game localization is unavailable";
-      bundleFingerprint = null;
     }
     if (id === requestId) notify();
   }

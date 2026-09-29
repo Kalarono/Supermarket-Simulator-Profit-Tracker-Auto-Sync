@@ -194,7 +194,10 @@ await Check("game update or bundle fingerprint mismatch falls back safely", () =
         using var catalog = new MemoryStream(System.Text.Encoding.UTF8.GetBytes(LocalizationFixture(data)));
         var provider = new GameLocalizationProvider(catalog, discovery);
         discovery.Current = install with { SteamBuildId = "updated-build" };
-        Assert(provider.Refresh() && !provider.IsAvailable && provider.GetLocalization("ru-RU").FallbackLocale == "en", "changed Steam build invalidates catalog");
+        Assert(provider.Refresh() && !provider.IsAvailable, "changed Steam build is reported as not current");
+        var updatedBuild = provider.GetLocalization("ru-RU");
+        Assert(updatedBuild.Locale == "ru-RU" && updatedBuild.Source == "bundled-fallback"
+            && updatedBuild.Products["33"].DisplayName == "Хлопья - Chokipik", "changed Steam build keeps bundled Russian labels");
     } finally { Directory.Delete(root, true); }
     var bundleRoot = Path.Combine(Path.GetTempPath(), "smtracker-loc-bundle-" + Guid.NewGuid().ToString("N"));
     var bundleData = Path.Combine(bundleRoot, "Game_Data"); Directory.CreateDirectory(bundleData);
@@ -207,7 +210,10 @@ await Check("game update or bundle fingerprint mismatch falls back safely", () =
         File.WriteAllText(bundle, "tampered localization fixture");
         File.SetLastWriteTimeUtc(bundle, originalWrite);
         Assert(new FileInfo(bundle).Length == originalLength, "fixture must preserve length");
-        Assert(provider.Refresh() && !provider.IsAvailable && provider.GetLocalization("ru-RU").FallbackLocale == "en", "same-stamp bundle content change invalidates catalog");
+        Assert(provider.Refresh() && !provider.IsAvailable, "same-stamp bundle content change is reported as not current");
+        var bundled = provider.GetLocalization("ru-RU");
+        Assert(bundled.Locale == "ru-RU" && bundled.Source == "bundled-fallback"
+            && bundled.Products["33"].DisplayName == "Хлопья - Chokipik", "changed bundle keeps bundled Russian labels");
     } finally { Directory.Delete(bundleRoot, true); }
     return Task.CompletedTask;
 });

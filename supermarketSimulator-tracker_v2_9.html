@@ -5170,7 +5170,15 @@ setTimeout(() => msg.classList.remove("show"), 2000);
 }
 window.addEventListener("tracker-localization-changed", (event) => {
 const picker = document.getElementById("displayLanguage");
-if (picker) picker.title = event.detail?.warning || "Display language";
+if (picker) picker.title = event.detail?.warning
+? (event.detail?.isCurrent === false
+? (window.TrackerLocalization?.getLocale() === "ru-RU"
+? "Используются встроенные русские названия товаров; некоторые могут отличаться от текущей версии игры."
+: "Using bundled Russian product names; some may differ from the installed game version.")
+: (window.TrackerLocalization?.getLocale() === "ru-RU"
+? "Для некоторых товаров используется английское название: в игре нет подтверждённого перевода."
+: "Some items have no confirmed Russian translation in the installed game.")
+: "Display language";
 rebuildCategoryFilter();
 renderCurrentTab();
 GameSync.onTrackerDataChanged();
