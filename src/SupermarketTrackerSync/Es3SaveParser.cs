@@ -62,6 +62,12 @@ public static class Es3JsonAdapter
 
 public sealed class Es3SaveParser : IEs3SaveParser
 {
+    private static readonly HashSet<string> VerifiedGameVersions = new(StringComparer.Ordinal)
+    {
+        "v1.6.0(223)",
+        "v1.7.1(232)"
+    };
+
     private sealed record PriceRow(int Id, FieldValue Price, FieldValue Discount);
 
     public SaveSnapshot Parse(string text, DateTimeOffset saveWriteTimeUtc, IGameDataProvider gameData)
@@ -92,7 +98,8 @@ public sealed class Es3SaveParser : IEs3SaveParser
             var licenseProducts = ReadLicenseProductState(g);
             var warnings = new List<string>();
             var gameVersion = StringOrNull(g, "GameVersion");
-            if (gameVersion != "v1.6.0(223)") warnings.Add($"Unverified game version: {gameVersion ?? "missing"}; verify field semantics before tracker import");
+            if (gameVersion is null || !VerifiedGameVersions.Contains(gameVersion))
+                warnings.Add($"Unverified game version: {gameVersion ?? "missing"}; verify field semantics before tracker import");
             if (player.Count < supplier.Count) warnings.Add($"Player sell prices present for {player.Count}/{supplier.Count} products; absent values are null");
             if (average.Count < supplier.Count) warnings.Add($"AverageCosts present for {average.Count}/{supplier.Count} products; not a box purchase price");
             int invalidSupplier = supplier.Values.Count(row => row.Price.Status == "invalid");

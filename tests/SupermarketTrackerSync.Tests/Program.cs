@@ -13,9 +13,9 @@ var emptyMap = new ProductMappingProvider(Array.Empty<GameProduct>());
 SaveSnapshot Parse(string text) => parser.Parse(text, DateTimeOffset.UtcNow, emptyMap);
 string Fixture(string rows = "{\"ProductID\":33,\"Price\":4.116,\"DiscountRate\":0}",
     string player = "{\"ProductID\":33,\"Price\":9.05}", string average = "{\"ProductID\":33,\"Price\":4.092703}",
-    string? licenseProductsDatas = null) =>
+    string? licenseProductsDatas = null, string gameVersion = "v1.6.0(223)") =>
     "{\"Unknown\":{\"value\":{62:12,\"literal\":\"{7:8}\"}}," +
-    "\"Progression\":{\"value\":{\"GameVersion\":\"v1.6.0(223)\",\"UnlockedLicenses\":[21,22],\"ActiveLicenses\":[21]" +
+    "\"Progression\":{\"value\":{\"GameVersion\":\"" + gameVersion + "\",\"UnlockedLicenses\":[21,22],\"ActiveLicenses\":[21]" +
         (licenseProductsDatas is null ? "" : ",\"LicenseProductsDatas\":" + licenseProductsDatas) + "}}," +
     "\"Price\":{\"value\":{\"PricingDatas\":[" + rows + "],\"PricesSetByPlayer\":[" + player + "],\"AverageCosts\":[" + average + "]}}}";
 string LocalizationFixture(string gameDataDirectory, string buildId = "fixture-build")
@@ -51,6 +51,15 @@ await Check("real-shaped price and licenses", () => {
     var s = Parse(Fixture()); Assert(s.GameVersion == "v1.6.0(223)" && s.UnlockedLicenses.SequenceEqual(new[]{21,22}), "progression");
     Assert(s.Products[0].SupplierUnitPrice.Value == 4.116m && s.Products[0].MarketPrice.Status == "absent" &&
         s.Products[0].DiscountRate.Value == 0m, "price"); return Task.CompletedTask; });
+await Check("verified game versions parse without an import-blocking warning", () => {
+    foreach (var version in new[] { "v1.6.0(223)", "v1.7.1(232)" })
+    {
+        var snapshot = Parse(Fixture(gameVersion: version));
+        Assert(!snapshot.Warnings.Any(w => w.StartsWith("Unverified game version:", StringComparison.Ordinal)), version);
+    }
+    var unknown = Parse(Fixture(gameVersion: "v1.7.2(233)"));
+    Assert(unknown.Warnings.Any(w => w.StartsWith("Unverified game version:", StringComparison.Ordinal)), "unknown version remains guarded");
+    return Task.CompletedTask; });
 await Check("active product list comes from LicenseProductsDatas and maps through game license IDs", () => {
     var ids = new[] { 24, 33, 39, 55, 62, 66, 70, 83, 84, 85, 147, 151 };
     var rows = string.Join(',', ids.Select(id => $"{{\"ProductID\":{id},\"Price\":1}}"));

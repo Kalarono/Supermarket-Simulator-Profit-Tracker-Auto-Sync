@@ -70,6 +70,23 @@ check('language and profit threshold are in full backup and restore', () => {
   assert.match(html, /if \(s\.displayLocale === "en" \|\| s\.displayLocale === "ru-RU"\)/);
 });
 
+check('all inline tracker scripts parse before shipping', () => {
+  const html = fs.readFileSync(path.join(base, 'supermarketSimulator-tracker_v2_9.html'), 'utf8');
+  const scripts = [...html.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script>/gi)]
+    .filter(([, attributes]) => !/\bsrc\s*=/.test(attributes))
+    .map(([, , source]) => source);
+  assert.ok(scripts.length > 0, 'expected at least one inline tracker script');
+  scripts.forEach((source, index) => new vm.Script(source, { filename: `tracker-inline-${index + 1}.js` }));
+});
+
+check('product chart axes and tooltips use localized display names', () => {
+  const html = fs.readFileSync(path.join(base, 'supermarketSimulator-tracker_v2_9.html'), 'utf8');
+  assert.match(html, /const fullNames = data\.map\(\(x\) => getProductDisplayName\(x\)\)/);
+  assert.match(html, /labels: fullNames\.map\(\(name\) =>/);
+  assert.match(html, /const dc4FullNames = marginData\.map\(\(x\) => getProductDisplayName\(x\)\)/);
+  assert.match(html, /labels: dc4FullNames\.map\(\(name\) =>/);
+});
+
 check('initial audit strings all have Russian translations or are canonical labels', () => {
   const audit = JSON.parse(fs.readFileSync(path.join(base, 'tests/fixtures/ui-audit-candidates.json'), 'utf8'));
   const intentional = value => /^L\d+$/.test(value) || value === 'English' || value === 'v2.9' || value === '/health: HTTP 404';

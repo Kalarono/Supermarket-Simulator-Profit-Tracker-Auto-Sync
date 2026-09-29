@@ -1671,14 +1671,14 @@ const cc = chartColors();
 function hbar(id, data, valKey, color) {
 const el = document.getElementById(id);
 if (!el) return;
-const fullNames = data.map((x) => x.name);
+const fullNames = data.map((x) => getProductDisplayName(x));
 makeChart(id, {
 type: "bar",
 data: {
-labels: data.map((x) =>
-x.name.length > 22
-? x.name.substring(0, 20) + "…"
-: x.name,
+labels: fullNames.map((name) =>
+name.length > 22
+? name.substring(0, 20) + "…"
+: name,
 ),
 datasets: [
 {
@@ -1890,14 +1890,14 @@ const margins = marginData.map(
 (x) =>
 +((x.onlineItemProfit / x.marketPrice) * 100).toFixed(1),
 );
-const dc4FullNames = marginData.map((x) => x.name);
+const dc4FullNames = marginData.map((x) => getProductDisplayName(x));
 makeChart("dc4", {
 type: "bar",
 data: {
-labels: marginData.map((x) =>
-x.name.length > 20
-? x.name.substring(0, 18) + "…"
-: x.name,
+labels: dc4FullNames.map((name) =>
+name.length > 20
+? name.substring(0, 18) + "…"
+: name,
 ),
 datasets: [{ data: margins, backgroundColor: "#fbbf2444", borderColor: "#fbbf24", borderWidth: 1, },],
 },
@@ -5177,8 +5177,8 @@ if (picker) picker.title = event.detail?.warning
 : "Using bundled Russian product names; some may differ from the installed game version.")
 : (window.TrackerLocalization?.getLocale() === "ru-RU"
 ? "Для некоторых товаров используется английское название: в игре нет подтверждённого перевода."
-: "Some items have no confirmed Russian translation in the installed game.")
-: "Display language";
+  : "Some items have no confirmed Russian translation in the installed game.")
+  ) : "Display language";
 rebuildCategoryFilter();
 renderCurrentTab();
 GameSync.onTrackerDataChanged();
