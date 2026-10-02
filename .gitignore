@@ -25,6 +25,7 @@ docs/evidence/
 .dotnet/
 .nuget/
 .tools/
+.serena/
 **/__pycache__/
 .pytest_cache/
 .cache/
